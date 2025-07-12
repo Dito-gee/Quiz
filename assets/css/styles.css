@@ -42,3 +42,20 @@ body {
   box-shadow: var(--shadow);
   border: 4px solid var(--accent); 
 }
+/* Logo styling */
+.logo {
+  margin-bottom: 30px;
+}
+
+.logo i {
+  font-size: 4rem; 
+  color: var(--accent);
+  margin-bottom: 15px;
+}
+
+.logo h1 {
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 2.5rem;
+  color: var(--text-accent);
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3); 
+}
