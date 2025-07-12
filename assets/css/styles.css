@@ -1,16 +1,16 @@
 /* CSS Variables  */
 :root {
-  --primary: #FF5722;        /* Primary color (orange) */
-  --secondary: #3F51B5;      /* Secondary color (indigo) */
-  --accent: #FFC107;         /* Accent color (amber) */
-  --background-dark: #1A1A2E; /* Dark background color */
-  --card-bg: #16213E;        /* Card background color */
-  --correct: #4CAF50;        /* Color for correct answers */
-  --incorrect: #F44336;      /* Color for incorrect answers */
-  --timer: #FF9800;          /* Timer color */
-  --text-light: #FFFFFF;     /* Light text color */
-  --text-accent: #FFD700;    /* Accent text color (gold) */
-  --shadow: 0 6px 10px rgba(0, 0, 0, 0.5); /* Default shadow */
+  --primary: #FF5722;        
+  --secondary: #3F51B5;     
+  --accent: #FFC107;         
+  --background-dark: #1A1A2E; 
+  --card-bg: #16213E;       
+  --correct: #4CAF50;       
+  --incorrect: #F44336;      
+  --timer: #FF9800;          
+  --text-light: #FFFFFF;     
+  --text-accent: #FFD700;    
+  --shadow: 0 6px 10px rgba(0, 0, 0, 0.5); 
 }
 /* Global reset and base styles */
 * {
@@ -151,8 +151,8 @@ body {
   font-weight: 700;
   color: var(--text-light);
   text-align: left;
-  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.3); /* 3D effect */
-  transition: all 0.1s ease; /* Smooth hover effect */
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.3); 
+  transition: all 0.1s ease;
 }
 /* Answer item hover state */
 .answer-item:hover {
@@ -177,5 +177,25 @@ body {
 .answer-item.incorrect {
   background-color: var(--incorrect);
   color: var(--text-light);
-  border-color: #C62828; /* Darker red border */
+  border-color: #C62828; 
+}
+/* Quiz footer with score and buttons */
+.quiz-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 3px solid var(--primary);
+}
+.score-container {
+  font-size: 1.5rem;
+  font-weight: 800;
+  display: flex;
+  gap: 15px; 
+  color: var(--text-accent);
+  background: var(--secondary);
+  padding: 10px 20px;
+  border-radius: 50px; 
+  border: 3px solid var(--accent);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.3); 
 }
