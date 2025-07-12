@@ -12,3 +12,9 @@
   --text-accent: #FFD700;    /* Accent text color (gold) */
   --shadow: 0 6px 10px rgba(0, 0, 0, 0.5); /* Default shadow */
 }
+/* Global reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
