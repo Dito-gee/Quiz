@@ -232,3 +232,13 @@ body {
   transform: translateY(2px); 
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3); 
 }
+/* Results Page Styles */
+.results-container {
+  text-align: center;
+}
+.results-score {
+  font-size: 3rem;
+  color: var(--text-accent);
+  margin: 20px 0;
+  font-weight: 900;
+}
