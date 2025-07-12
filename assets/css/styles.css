@@ -168,3 +168,14 @@ body {
   cursor: pointer;
   accent-color: var(--accent); 
 }
+/* Correct/incorrect answer states */
+.answer-item.correct {
+  background-color: var(--correct);
+  color: var(--text-light);
+  border-color: #2E7D32; 
+}
+.answer-item.incorrect {
+  background-color: var(--incorrect);
+  color: var(--text-light);
+  border-color: #C62828; /* Darker red border */
+}
