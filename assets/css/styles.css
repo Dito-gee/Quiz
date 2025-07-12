@@ -154,3 +154,9 @@ body {
   box-shadow: 0 5px 0 rgba(0, 0, 0, 0.3); /* 3D effect */
   transition: all 0.1s ease; /* Smooth hover effect */
 }
+/* Answer item hover state */
+.answer-item:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.3); 
+  background-color: #FF7043;
+}
