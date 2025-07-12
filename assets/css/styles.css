@@ -1,0 +1,14 @@
+/* CSS Variables (Custom Properties) for easy theming and consistency */
+:root {
+  --primary: #FF5722;        /* Primary color (orange) */
+  --secondary: #3F51B5;      /* Secondary color (indigo) */
+  --accent: #FFC107;         /* Accent color (amber) */
+  --background-dark: #1A1A2E; /* Dark background color */
+  --card-bg: #16213E;        /* Card background color */
+  --correct: #4CAF50;        /* Color for correct answers */
+  --incorrect: #F44336;      /* Color for incorrect answers */
+  --timer: #FF9800;          /* Timer color */
+  --text-light: #FFFFFF;     /* Light text color */
+  --text-accent: #FFD700;    /* Accent text color (gold) */
+  --shadow: 0 6px 10px rgba(0, 0, 0, 0.5); /* Default shadow */
+}
