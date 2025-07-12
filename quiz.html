@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Page title that appears in browser tab -->
+    <!-- Page title  -->
     <title>The Great Paint-Off Quiz</title>
     <!-- CSS stylesheets -->
-    <link rel="stylesheet" href="assets/css/style.css"> <!-- Main stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css">
     <!-- Google Fonts for typography -->
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Roboto:wght@400;700&display=swap"
@@ -17,7 +17,47 @@
 </head>
 
 <body>
+    <!-- Main quiz container -->
+    <div class="quiz-container">
+        <!-- Quiz header with progress and timer -->
+        <div class="quiz-header">
+            <div class="quiz-progress">
+                <span id="question-counter">Question 1/5</span>
+                <div class="timer">
+                    <i class="fas fa-clock"></i>
+                    <span id="timer">60</span>s
+                </div>
+            </div>
 
+            <!-- Container for current question -->
+            <div class="question-container">
+                <h2 id="question-text">What is the best type of paint to use in a high-moisture area like a bathroom?
+                </h2>
+            </div>
+
+            <!-- Answer options container (populated by JavaScript) -->
+            <div id="answer-options" class="answer-list"></div>
+        </div>
+
+        <!-- Quiz footer with score and control buttons -->
+        <div class="quiz-footer">
+            <div class="score-container">
+                <span>Score:</span>
+                <span id="score">0</span>
+            </div>
+            <div class="button-group">
+                <button id="home-btn" class="btn">
+                    <i class="fas fa-home"></i> Home
+                </button>
+                <button id="restart-btn" class="btn">
+                    <i class="fas fa-redo"></i> Restart
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JavaScript file -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
