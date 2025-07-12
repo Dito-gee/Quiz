@@ -18,3 +18,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Main page styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #1A1A2E 0%, #16213E 100%); /* Gradient background */
+  color: var(--text-light);
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 20px; /* Add some padding around edges */
+}
