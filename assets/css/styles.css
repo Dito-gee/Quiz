@@ -160,3 +160,11 @@ body {
   box-shadow: 0 8px 0 rgba(0, 0, 0, 0.3); 
   background-color: #FF7043;
 }
+/* Radio button styling */
+.answer-item input[type="radio"] {
+  margin-right: 20px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  accent-color: var(--accent); 
+}
