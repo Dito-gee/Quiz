@@ -238,10 +238,10 @@ document.addEventListener('DOMContentLoaded', () => {
         questionCounter.textContent = '';
         answerList.innerHTML = '';
     }
+
     // Get personalized result message
     function getResultMessage(score, totalQuestions) {
         const percentage = (score / totalQuestions) * 100;
-
         if (percentage >= 80) {
             return "Excellent! You're a painting expert!";
         } else if (percentage >= 60) {
@@ -252,8 +252,15 @@ document.addEventListener('DOMContentLoaded', () => {
             return "Keep learning! Every master was once a beginner.";
         }
     }
+
     // Event Listeners
     restartBtn.addEventListener('click', initQuiz);
     homeBtn.addEventListener('click', () => {
         window.location.href = 'index.html';
     });
+
+    // Start the quiz 
+    if (questionText) {
+        initQuiz();
+    }
+});
