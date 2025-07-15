@@ -57,7 +57,64 @@ document.addEventListener('DOMContentLoaded', () => {
     function initQuiz() {
         currentQuestionIndex = 0;
         score = 0;
-        scoreElement.textContent = score; 
-        resetTimerStyles(); 
-        showQuestion(); 
+        scoreElement.textContent = score;
+        resetTimerStyles();
+        showQuestion();
+    }
+    // ====================
+    // Timer Functions
+    // ====================
+    // Resets the timer's visual styles to default
+    function resetTimerStyles() {
+        timerElement.style.color = '';
+        timerElement.style.fontWeight = '';
+        timerElement.style.textShadow = '';
+    }
+
+    // Starts a countdown timer for the current question
+    function startQuestionTimer() {
+        timeLeft = 60;
+        timerElement.textContent = timeLeft;
+
+        // Clear any existing timer to prevent multiple timers running
+        clearInterval(timer);
+
+        // Start new timer interval (updates every second)
+        timer = setInterval(() => {
+            timeLeft--;
+            timerElement.textContent = timeLeft;
+
+            // Add visual warning when time is running low
+            if (timeLeft <= 10) {
+                timerElement.style.color = '#FF1744';
+                timerElement.style.fontWeight = '900';
+                timerElement.style.textShadow = '0 0 8px rgba(255, 23, 68, 0.8)';
+            }
+
+            // Handle when time runs out completely
+            if (timeLeft <= 0) {
+                clearInterval(timer);
+                handleTimeOut();
+            }
+        }, 1000);
+    }
+
+    // Handles what happens when time runs out for a question
+    function handleTimeOut() {
+        const currentQuestion = questions[currentQuestionIndex];
+        disableQuizInteraction();
+
+        // Show correct answer
+        const answerItems = answerList.querySelectorAll('.answer-item');
+        answerItems[currentQuestion.correct].classList.add('correct');
+
+        // Move to next question after delay
+        setTimeout(() => {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else {
+                endQuiz();
+            }
+        }, 1500);
     }
