@@ -49,11 +49,13 @@ document.addEventListener('DOMContentLoaded', () => {
             correct: 3
         }
     ];
+
     // Quiz State variables
     let currentQuestionIndex = 0;
     let score = 0;
     let timeLeft = 60;
     let timer;
+
     // Initialize Quiz - Initializes or resets the quiz to its starting state
     function initQuiz() {
         currentQuestionIndex = 0;
@@ -119,6 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }, 1500);
     }
+
     // ====================
     // Quiz Interaction
     // ====================
@@ -134,6 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
             item.style.pointerEvents = 'none';
         });
     }
+    
     // ====================
     // Question Display
     // ====================
