@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const timerElement = document.getElementById('timer');
     const restartBtn = document.getElementById('restart-btn');
     const homeBtn = document.getElementById('home-btn');
+    
     // Quiz Questions data
     // Array containing all quiz questions, possible answers, and correct answer index
     const questions = [
@@ -139,17 +140,22 @@ document.addEventListener('DOMContentLoaded', () => {
     // Displays the current question and its answer options
     function showQuestion() {
         const currentQuestion = questions[currentQuestionIndex];
+
         // Update question text and counter
         questionText.textContent = currentQuestion.question;
         questionCounter.textContent = `Question ${currentQuestionIndex + 1}/${questions.length}`;
+
         // Clear previous answers
         answerList.innerHTML = '';
+
         // Create answer options for current question
         currentQuestion.answers.forEach((answer, index) => {
             const answerId = `answer-${index}`;
+
             // Create answer item container
             const listItem = document.createElement('div');
             listItem.classList.add('answer-item');
+
             // Create radio input
             const radio = document.createElement('input');
             radio.type = 'radio';
