@@ -48,3 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
             correct: 3
         }
     ];
+    // Quiz State variables
+    let currentQuestionIndex = 0; 
+    let score = 0; 
+    let timeLeft = 60; 
+    let timer; 
