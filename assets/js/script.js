@@ -118,3 +118,18 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }, 1500);
     }
+    // ====================
+    // Quiz Interaction
+    // ====================
+    // Disables all interactive elements to prevent answering after selection/timeout
+    function disableQuizInteraction() {
+        const radios = document.querySelectorAll('input[type="radio"]');
+        radios.forEach(radio => {
+            radio.disabled = true;
+        });
+
+        const answerItems = answerList.querySelectorAll('.answer-item');
+        answerItems.forEach(item => {
+            item.style.pointerEvents = 'none';
+        });
+    }
