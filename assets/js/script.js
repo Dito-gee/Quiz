@@ -238,3 +238,17 @@ document.addEventListener('DOMContentLoaded', () => {
         questionCounter.textContent = '';
         answerList.innerHTML = '';
     }
+    // Get personalized result message
+    function getResultMessage(score, totalQuestions) {
+        const percentage = (score / totalQuestions) * 100;
+
+        if (percentage >= 80) {
+            return "Excellent! You're a painting expert!";
+        } else if (percentage >= 60) {
+            return "Good job! You know quite a bit about painting.";
+        } else if (percentage >= 40) {
+            return "Not bad! With a little more practice, you'll master it.";
+        } else {
+            return "Keep learning! Every master was once a beginner.";
+        }
+    }
