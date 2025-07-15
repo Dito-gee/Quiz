@@ -252,3 +252,8 @@ document.addEventListener('DOMContentLoaded', () => {
             return "Keep learning! Every master was once a beginner.";
         }
     }
+    // Event Listeners
+    restartBtn.addEventListener('click', initQuiz);
+    homeBtn.addEventListener('click', () => {
+        window.location.href = 'index.html';
+    });
