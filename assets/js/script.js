@@ -49,7 +49,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     ];
     // Quiz State variables
-    let currentQuestionIndex = 0; 
-    let score = 0; 
-    let timeLeft = 60; 
-    let timer; 
+    let currentQuestionIndex = 0;
+    let score = 0;
+    let timeLeft = 60;
+    let timer;
+    // Initialize Quiz - Initializes or resets the quiz to its starting state
+    function initQuiz() {
+        currentQuestionIndex = 0;
+        score = 0;
+        scoreElement.textContent = score; 
+        resetTimerStyles(); 
+        showQuestion(); 
+    }
