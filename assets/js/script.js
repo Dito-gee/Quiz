@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const timerElement = document.getElementById('timer');
     const restartBtn = document.getElementById('restart-btn');
     const homeBtn = document.getElementById('home-btn');
-    
+
     // Quiz Questions data
     // Array containing all quiz questions, possible answers, and correct answer index
     const questions = [
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
             item.style.pointerEvents = 'none';
         });
     }
-    
+
     // ====================
     // Question Display
     // ====================
@@ -222,3 +222,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 1500);
     }
 
+    // End Quiz - Displays the final quiz results
+    function endQuiz() {
+        // Create results display HTML
+        questionText.innerHTML = `
+      <div class="results-container">
+        <h2>Quiz Complete!</h2>
+        <div class="results-score">${score}/${questions.length}</div>
+        <div class="results-message">
+          ${getResultMessage(score, questions.length)}
+        </div>
+      </div>
+    `;
+        // Clear question counter and answer list
+        questionCounter.textContent = '';
+        answerList.innerHTML = '';
+    }
