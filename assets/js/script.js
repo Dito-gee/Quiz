@@ -133,3 +133,125 @@ document.addEventListener('DOMContentLoaded', () => {
             item.style.pointerEvents = 'none';
         });
     }
+    // ====================
+    // Question Display
+    // ====================
+    // Displays the current question and its answer options
+    function showQuestion() {
+        const currentQuestion = questions[currentQuestionIndex];
+        // Update question text and counter
+        questionText.textContent = currentQuestion.question;
+        questionCounter.textContent = `Question ${currentQuestionIndex + 1}/${questions.length}`;
+        // Clear previous answers
+        answerList.innerHTML = '';
+        // Create answer options for current question
+        currentQuestion.answers.forEach((answer, index) => {
+            const answerId = `answer-${index}`;
+            // Create answer item container
+            const listItem = document.createElement('div');
+            listItem.classList.add('answer-item');
+            // Create radio input
+            const radio = document.createElement('input');
+            radio.type = 'radio';
+            radio.name = 'answer';
+            radio.value = index;
+            radio.id = answerId;
+
+            // Create answer label
+            const label = document.createElement('label');
+            label.htmlFor = answerId;
+            label.textContent = answer;
+
+            // Build the answer item
+            listItem.appendChild(radio);
+            listItem.appendChild(label);
+
+            // Add click handler for the entire answer item
+            listItem.addEventListener('click', () => {
+                radio.checked = true;
+                selectAnswer(index);
+            });
+
+            // Add to the answer list
+            answerList.appendChild(listItem);
+        });
+
+        // Start timer for this question
+        startQuestionTimer();
+    }
+
+    // Handle Answer Selection - Processes the selected answer and updates quiz state
+    function selectAnswer(selectedIndex) {
+        clearInterval(timer);
+        const currentQuestion = questions[currentQuestionIndex];
+        const answerItems = answerList.querySelectorAll('.answer-item');
+
+        disableQuizInteraction();
+
+        // Check if answer is correct
+        const isCorrect = selectedIndex === currentQuestion.correct;
+
+        // Visual feedback
+        if (isCorrect) {
+            answerItems[selectedIndex].classList.add('correct');
+            score++;
+            scoreElement.textContent = score;
+        } else {
+            answerItems[selectedIndex].classList.add('incorrect');
+            answerItems[currentQuestion.correct].classList.add('correct');
+        }
+
+        // Move to next question after delay
+        setTimeout(() => {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else {
+                endQuiz();
+            }
+        }, 1500);
+    }
+
+    // End Quiz - Displays the final quiz results
+    function endQuiz() {
+        // Create results display HTML
+        questionText.innerHTML = `
+      <div class="results-container">
+        <h2>Quiz Complete!</h2>
+        <div class="results-score">${score}/${questions.length}</div>
+        <div class="results-message">
+          ${getResultMessage(score, questions.length)}
+        </div>
+      </div>
+    `;
+        // Clear question counter and answer list
+        questionCounter.textContent = '';
+        answerList.innerHTML = '';
+    }
+
+    // Get personalized result message
+    function getResultMessage(score, totalQuestions) {
+        const percentage = (score / totalQuestions) * 100;
+
+        if (percentage >= 80) {
+            return "Excellent! You're a painting expert!";
+        } else if (percentage >= 60) {
+            return "Good job! You know quite a bit about painting.";
+        } else if (percentage >= 40) {
+            return "Not bad! With a little more practice, you'll master it.";
+        } else {
+            return "Keep learning! Every master was once a beginner.";
+        }
+    }
+
+    // Event Listeners
+    restartBtn.addEventListener('click', initQuiz);
+    homeBtn.addEventListener('click', () => {
+        window.location.href = 'index.html';
+    });
+
+    // Start the quiz 
+    if (questionText) {
+        initQuiz();
+    }
+});
