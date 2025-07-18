@@ -1,4 +1,4 @@
-# Quiz
+# The Great Paint-off Quiz
 ## Painting and Decorating quiz
 
 ### Site Overview
