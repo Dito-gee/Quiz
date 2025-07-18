@@ -1,7 +1,7 @@
 # The Great Paint-off Quiz
-## Painting and Decorating quiz
+### Painting and Decorating quiz
 
-### Site Overview
+## Site Overview
 This is a specialized quiz application designed to:
 1. Test the painting and decorating knowledge of students and apprentices 
 2. Help DIY painter and decorators learn best practices
@@ -15,9 +15,9 @@ This is a specialized quiz application designed to:
 
 
 
-### Planning Stage
+## Planning Stage
 
-#### Target Audiences:
+### Target Audiences:
 
 •	Painting and decorating students and apprentices.
 
@@ -25,16 +25,16 @@ This is a specialized quiz application designed to:
 
 •	Educators and Assessors
 
-#### User Stories:
+### User Stories:
 
-###### Painting and Decorating Students & Apprentices
+#### Painting and Decorating Students & Apprentices
  •   As a Painting apprentice I want to test my technical knowledge so that I can prepare for trade certification exams  
 
  •   As a Vocational student I want to compare my scores with peers so that I can benchmark my progress  
 
  •   As a Trade school learner I want to receive explanations for answers so that I can understand mistakes  
 
-###### DIY Painter and Decorators
+#### DIY Painter and Decorators
 
 •   As a Home renovator I want to learn paint selection techniques so that I can choose the right products for my project.
 
@@ -42,13 +42,13 @@ This is a specialized quiz application designed to:
 
 •   As a Budget decorator I want to discover cost-saving methods so that I can achieve professional results affordably    
 
-##### Educators & Assessors
+#### Educators & Assessors
 
 •   As an educator I want to track class performance so that I can identify knowledge gaps 
 
 •   As a NVQ assessor I want to track an apprentice performance so that I can identify knowledge gaps 
 
-#### Site Aims:
+### Site Aims:
 
 •	To provide an opportunity for the user to get to know my skills and knowledge.
 
