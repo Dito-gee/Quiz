@@ -2,12 +2,12 @@
 ## Painting and Decorating quiz
 
 ### Site Overview
-The online resume has been designed to fulfil a genuine need to make me be more accessible to recruiters and individuals interested in finding painter and decorators.
+This is a specialized quiz application designed to:
+1. Test the painting and decorating knowledge of students and apprentices 
+2. Help DIY painting and decorators learn best practices
+3. Showcase expertise in the painting and decorating field
 
-Whilst there are numerous painter and decorators, I have not yet come across a self-employed painter and decorator with an online presence / website except for small, medium and large painting and decorating businesses.
 
-The reason behind this is to market myself more and therefore increase chances of getting work. Especially when you consider the current economic situation in the country. 
-The website is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
 <img width="1592" height="891" alt="Screenshot 2025-07-18 112709" src="https://github.com/user-attachments/assets/2583ee64-e2e7-463d-9950-314992fb8f55" />
 
