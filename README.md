@@ -4,7 +4,7 @@
 ### Site Overview
 This is a specialized quiz application designed to:
 1. Test the painting and decorating knowledge of students and apprentices 
-2. Help DIY painting and decorators learn best practices
+2. Help DIY painter and decorators learn best practices
 3. Showcase expertise in the painting and decorating field
 
 
@@ -19,25 +19,34 @@ This is a specialized quiz application designed to:
 
 #### Target Audiences:
 
-•	Recruiters in the painting and decorating profession.
+•	Painting and decorating students and apprentices.
 
-•	Individuals looking for a painter and decorator
+•	Home improvement enthusiasts
+
+•	Educators and Assessors
 
 #### User Stories:
 
-•	As a user, I want to view some of the work the candidate has done.
+###### Painting and Decorating Students & Apprentices
+ •   As a Painting apprentice I want to test my technical knowledge so that I can prepare for trade certification exams  
 
-•	As a user, I want to learn about the candidate’s knowledge and skills.
+ •   As a Vocational student I want to compare my scores with peers so that I can benchmark my progress  
 
-•	As a user, I want to navigate the page to find what I require quickly and easily.
+ •   As a Trade school learner I want to receive explanations for answers so that I can understand mistakes  
 
-•	As a user, I want to reach out and contact the candidate.
+###### DIY Painter and Decorators
 
-•	As a user, I want to know how to contact the candidate.
+•   As a Home renovator I want to learn paint selection techniques so that I can choose the right products for my project.
 
-•	As a user, I want to find more about the candidate on social media.
+•   As first time DIYer I want to test basic safety knowledge so that I can avoid hazardous situations
 
-•	As a user, I want to be able to easily navigate throughout the site to find content.
+•   As a Budget decorator I want to discover cost-saving methods so that I can achieve professional results affordably    
+
+##### Educators & Assessors
+
+•   As an educator I want to track class performance so that I can identify knowledge gaps 
+
+•   As a NVQ assessor I want to track an apprentice performance so that I can identify knowledge gaps 
 
 #### Site Aims:
 
