@@ -9,6 +9,7 @@ Whilst there are numerous painter and decorators, I have not yet come across a s
 The reason behind this is to market myself more and therefore increase chances of getting work. Especially when you consider the current economic situation in the country. 
 The website is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
+<img width="1592" height="891" alt="Screenshot 2025-07-18 112709" src="https://github.com/user-attachments/assets/2583ee64-e2e7-463d-9950-314992fb8f55" />
 
 
 
