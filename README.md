@@ -124,6 +124,12 @@ Rationale: High contrast for readability; professional yet energetic tone fittin
 
 Wireframes for desktop, tablet and mobile phone devices were created using Balsamiq. This process provides a basic but clear outline of how the website would look on each device.
 
+##### Welcome page - desktop, tablet, mobile
+
+##### Quiz page - desktop, tablet, mobile
+
+##### Score page - desktop, tablet, mobile
+
 ![Desktop wireframe Project 1](https://github.com/user-attachments/assets/fcac4969-902d-4400-bbac-a43214746f99)
 
 
