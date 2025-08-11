@@ -50,20 +50,75 @@ This is a specialized quiz application designed to:
 
 ### Site Aims:
 
-•	To provide an opportunity for the user to get to know my skills and knowledge.
+•	Knowledge Validation - To provide an interactive platform where painting and decorating students, DIYers, and professionals can test and benchmark their technical knowledge against industry standards.
 
-•	To offer the user various options of getting in contact.
+•	Skill Development - To help users identify knowledge gaps through instant feedback and detailed answer explanations, reinforcing best practices in painting and decorating.
 
-•	To provide the user the opportunity to download my CV.
+•	User-Centric Design - To ensure an intuitive, accessible experience with clear typography (Segoe UI), responsive layouts, and WCAG-compliant contrast for all learners.
 
-•	To provide a contact form the user can complete if they would rather not phone, email or contact via social media.
+
 
 ### Design
+
+#### Color Palette
+
+• Primary: #3F51B5 (Deep Blue) – Used for headers and buttons
+
+• Secondary: #FF5722 (Vibrant Orange) – Accent for interactive elements
+
+• Background: #F5F5F5 (Light Gray) with #1A1A2E (Dark Navy) gradient overlay
+
+•Text: #212121 (Dark Gray) on light, #FFFFFF on dark backgrounds
+
+• Feedback States:
+
+     • Correct: #4CAF50 (Green)
+
+     • Incorrect: #F44336 (Red)
+
+Rationale: High contrast for readability; professional yet energetic tone fitting trade industries.
 
 
 #### Typography
 
-•	Throughout the page, the following fonts are used: font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif.
+•	Headings: 'Montserrat', sans-serif (700-800 weight) – Bold and authoritative
+
+• Body Text: 'Roboto', sans-serif (400 weight) – Clean and legible
+
+• Code Snippets: 'Fira Code', monospace (for any technical examples)
+
+• Font Pairing Justification:
+
+      • Montserrat’s geometric clarity works for quick scanning.
+
+      • Roboto’s neutral warmth balances technical content.
+
+#### Core UI Components
+
+• Quiz Card Container
+
+• Answer Buttons
+
+• Timer Widget
+
+• Score Display
+
+• Restart, start and home Buttons 
+
+• Question Header
+
+#### Responsive Breakpoints
+
+• Device	Adaptations
+
+    • <576px (Mobile)	
+
+    • 768px (Tablet)	
+
+    • >992px (Desktop)	
+
+
+
 
 #### Wireframes:
 
