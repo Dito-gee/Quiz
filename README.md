@@ -124,19 +124,33 @@ Rationale: High contrast for readability; professional yet energetic tone fittin
 
 Wireframes for desktop, tablet and mobile phone devices were created using Balsamiq. This process provides a basic but clear outline of how the website would look on each device.
 
-##### Welcome page - desktop, tablet, mobile
+##### Desktop
 
-##### Quiz page - desktop, tablet, mobile
+<img width="968" height="772" alt="Desktop Quiz" src="https://github.com/user-attachments/assets/61b72b6e-9733-4c16-b060-8de8931151e2" />
 
-##### Score page - desktop, tablet, mobile
+<img width="954" height="772" alt="Page 2 -Desktop Quiz" src="https://github.com/user-attachments/assets/d4609c24-c6d0-47a6-b8a5-148524e9b009" />
 
-![Desktop wireframe Project 1](https://github.com/user-attachments/assets/fcac4969-902d-4400-bbac-a43214746f99)
-
-
-![Tablet wireframe Project 1](https://github.com/user-attachments/assets/8d0ab388-673d-4823-8b3d-78f964eb650a)
+<img width="954" height="772" alt="Page 3 -Desktop Quiz " src="https://github.com/user-attachments/assets/e1d72508-4a55-45a1-9f98-fb5422b3baee" />
 
 
-![Mobile Phone wireframe Project 1](https://github.com/user-attachments/assets/faded3b1-e85f-480f-9aa2-a2f8e3ac4c52)
+##### Tablet
+
+<img width="838" height="836" alt="Tablet Quiz" src="https://github.com/user-attachments/assets/062a41cc-39d8-46f2-a3e2-14a78942baa4" />
+
+<img width="838" height="836" alt="Page 2 - Tablet Quiz" src="https://github.com/user-attachments/assets/e7eb5e05-24a6-48dc-9286-935caf6d9b58" />
+
+<img width="838" height="836" alt="Page 3 - Tablet Quiz" src="https://github.com/user-attachments/assets/fa13ae2d-e100-4084-9dc6-cc40be0cdca8" />
+
+
+##### Mobile
+
+<img width="518" height="1140" alt="Mobile phone Quiz" src="https://github.com/user-attachments/assets/7cab3d97-3bef-4fe9-969e-5016a8eb8f80" />
+
+<img width="518" height="1027" alt="Page 2 - Mobile phone Quiz  " src="https://github.com/user-attachments/assets/c45fce61-9d7e-436d-8d49-441d6447de09" />
+
+<img width="518" height="1027" alt="Page 3 - Mobile phone Quiz" src="https://github.com/user-attachments/assets/b8f48b7d-8ac3-4fbb-958b-414ee46bdf55" />
+
+
 
 
 ### Features
