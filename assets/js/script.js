@@ -301,3 +301,6 @@ document.addEventListener('DOMContentLoaded', () => {
         initQuiz();
     }
 });
+
+// copyright
+document.getElementById('copyright-year').textContent = new Date().getFullYear();
