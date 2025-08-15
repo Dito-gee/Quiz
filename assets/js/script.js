@@ -47,7 +47,44 @@ document.addEventListener('DOMContentLoaded', () => {
                 "All of the above"
             ],
             correct: 3
+        },
+        {
+            question: "When painting an interior room, what surfaces should be painted first?",
+            answers: ["Ceiling", "Walls", "Trims", "Doors"],
+            correct: 0
+        },
+        {
+            question: "What is the purpose of knotting in wood preparation?",
+            answers: [
+                "To create a smooth surface for painting",
+                "To seal knots and prevent them from bleeding through the paint",
+                "To prime the wood before painting",
+                "To remove any existing paint"
+            ],
+            correct: 1
+        },
+        {
+            question: "When using solvent-borne (oil-based) paint, what product is best for cleaning brushes and equipment?",
+            answers: ["Water", "Sugar soap", "White spirit", "Soapy water "],
+            correct: 2
+        },
+        {
+            question: "Why are waterproof dustsheets and plastic used in painting?",
+            answers: [
+                "To protect flooring and furniture from splatter",
+                "To protect against spills",
+                "To help avoid tracking paint throughout other areas",
+                "All of the above"
+            ],
+            correct: 3
+        },
+        {
+            question: "What is the caustic soap, used to remove grease and dirt from paintwork called?",
+            answers: ["Sugar soap", "Abrasive soap", "Acid soap", "Salt soap"],
+            correct: 0
         }
+    
+
     ];
 
     // Quiz State variables
