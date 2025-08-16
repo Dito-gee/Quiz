@@ -218,7 +218,17 @@ o	On smaller screens a hamburger menu is provided to ensure mobile users have an
 Validators
 •	HTML Validation using w3c validator 
 
-![image](https://github.com/user-attachments/assets/024bdbfa-5cc3-4719-b237-524c5368b269)
+###### Index.html
+
+<img width="1869" height="529" alt="index html" src="https://github.com/user-attachments/assets/861636d4-a9d7-4986-b356-f58407781dd2" />
+
+
+###### Quiz.html
+
+<img width="1890" height="531" alt="quiz html" src="https://github.com/user-attachments/assets/eac04e2f-3079-465a-b675-bc0ef6a357ab" />
+
+
+
 
 CSS Validation using w3c jigsaw
 
