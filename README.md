@@ -157,9 +157,9 @@ Wireframes for desktop, tablet and mobile phone devices were created using Balsa
 
 #### •	Responsive on all device sizes
 
-#### •	Interactive elements for user e.g. contact form
+#### •	Usability
 
-#### •	Navigation Bar
+#### •	Navigation
 
 o	The name is present on the left side of the header together with phone number and email address and the navigation links are aligned to the right.
 
