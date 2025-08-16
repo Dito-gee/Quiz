@@ -230,9 +230,22 @@ o	On smaller screens a hamburger menu is provided to ensure mobile users have an
 
 
 
-CSS Validation using w3c jigsaw
+• CSS Validation using w3c jigsaw
 
 <img width="1851" height="340" alt="css" src="https://github.com/user-attachments/assets/54970e0c-f96a-4ebc-a146-3e5518b8939a" />
+
+
+• Javascript Validation using JSHint
+
+<img width="1867" height="964" alt="jshint 2025-08-16 134311" src="https://github.com/user-attachments/assets/b33e7855-78c3-4410-9bef-1c91d8d9364e" />
+
+
+• Javascript Validation using JSLint
+
+<img width="1876" height="988" alt="jslint 2025-08-16 134518" src="https://github.com/user-attachments/assets/caf9e515-f7bc-4e0a-a9de-e8b690890fcb" />
+
+
+
 
 
 #### Testing User Stories from User Experience (UX) Section
