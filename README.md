@@ -201,7 +201,19 @@ o	On smaller screens a hamburger menu is provided to ensure mobile users have an
 
 •	I used Lighthouse to test website. Results below:
 
-![image](https://github.com/user-attachments/assets/2d5b02ad-c685-4365-bbcb-ba12348a29e8)
+###### Desktop
+
+<img width="1149" height="979" alt="Lighthouse Report Viewer" src="https://github.com/user-attachments/assets/3114d09d-da5e-4c0e-928a-d4a147ed5bed" />
+
+
+
+###### Mobile
+
+<img width="1091" height="1018" alt="Lighthouse Report Viewer 2" src="https://github.com/user-attachments/assets/060817fb-f07b-405a-988c-40edf86c860f" />
+
+
+
+
 
 Validators
 •	HTML Validation using w3c validator 
