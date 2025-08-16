@@ -232,7 +232,8 @@ o	On smaller screens a hamburger menu is provided to ensure mobile users have an
 
 CSS Validation using w3c jigsaw
 
-![image](https://github.com/user-attachments/assets/1c4b9a5e-50c8-48cb-9052-dfc2831d053d)
+<img width="1851" height="340" alt="css" src="https://github.com/user-attachments/assets/54970e0c-f96a-4ebc-a146-3e5518b8939a" />
+
 
 #### Testing User Stories from User Experience (UX) Section
 ##### User Goals
