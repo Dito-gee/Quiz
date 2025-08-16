@@ -215,7 +215,7 @@ o	On smaller screens a hamburger menu is provided to ensure mobile users have an
 
 
 
-Validators
+#### Validators
 •	HTML Validation using w3c validator 
 
 ###### Index.html
