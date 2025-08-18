@@ -157,9 +157,9 @@ Wireframes for desktop, tablet and mobile phone devices were created using Balsa
 
 #### •	Responsive on all device sizes
 
-#### •	Interactive elements for user e.g. contact form
+#### •	Usability
 
-#### •	Navigation Bar
+#### •	Navigation
 
 o	The name is present on the left side of the header together with phone number and email address and the navigation links are aligned to the right.
 
@@ -201,16 +201,52 @@ o	On smaller screens a hamburger menu is provided to ensure mobile users have an
 
 •	I used Lighthouse to test website. Results below:
 
-![image](https://github.com/user-attachments/assets/2d5b02ad-c685-4365-bbcb-ba12348a29e8)
+###### Desktop
 
-Validators
+<img width="1149" height="979" alt="Lighthouse Report Viewer" src="https://github.com/user-attachments/assets/3114d09d-da5e-4c0e-928a-d4a147ed5bed" />
+
+
+
+###### Mobile
+
+<img width="1091" height="1018" alt="Lighthouse Report Viewer 2" src="https://github.com/user-attachments/assets/060817fb-f07b-405a-988c-40edf86c860f" />
+
+
+
+
+
+#### Validators
 •	HTML Validation using w3c validator 
 
-![image](https://github.com/user-attachments/assets/024bdbfa-5cc3-4719-b237-524c5368b269)
+###### Index.html
 
-CSS Validation using w3c jigsaw
+<img width="1869" height="529" alt="index html" src="https://github.com/user-attachments/assets/861636d4-a9d7-4986-b356-f58407781dd2" />
 
-![image](https://github.com/user-attachments/assets/1c4b9a5e-50c8-48cb-9052-dfc2831d053d)
+
+###### Quiz.html
+
+<img width="1890" height="531" alt="quiz html" src="https://github.com/user-attachments/assets/eac04e2f-3079-465a-b675-bc0ef6a357ab" />
+
+
+
+
+• CSS Validation using w3c jigsaw
+
+<img width="1851" height="340" alt="css" src="https://github.com/user-attachments/assets/54970e0c-f96a-4ebc-a146-3e5518b8939a" />
+
+
+• Javascript Validation using JSHint
+
+<img width="1867" height="964" alt="jshint 2025-08-16 134311" src="https://github.com/user-attachments/assets/b33e7855-78c3-4410-9bef-1c91d8d9364e" />
+
+
+• Javascript Validation using JSLint
+
+<img width="1876" height="988" alt="jslint 2025-08-16 134518" src="https://github.com/user-attachments/assets/caf9e515-f7bc-4e0a-a9de-e8b690890fcb" />
+
+
+
+
 
 #### Testing User Stories from User Experience (UX) Section
 ##### User Goals
