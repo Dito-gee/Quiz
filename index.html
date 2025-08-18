@@ -73,6 +73,11 @@
         <footer class="copyright-footer">
             &copy; <span id="copyright-year"></span> Nderitu Githaiga. All rights reserved.
         </footer>
+        <script>
+        if (document.getElementById('copyright-year')) {
+            document.getElementById('copyright-year').textContent = new Date().getFullYear();
+        }
+    </script>
     </div>
 
 
