@@ -319,9 +319,9 @@ Friends were asked to review the site to point out any user experience issues.
 
 ### Known Bugs
 
-Navigation from one page to another does not work properly when using the navigation links at the top of the home page. The pages would not start at the beginning when the navigation links were used. I therefore assumed the navigation links weren't working properly eg href="#portfolio">Portfolio .  I attempted to fix the bug by modifying the href attributes to include index.html#section paths, eg href="index.html#portfolio">Portfolio, without success. I reverted to the original code to prevent any issues.
+When one of the multiple choice radio button answers is selected the colour constrast is not good. I attempted to fix the bug without success. I reverted to the original code to prevent any issues and also because of time constraints.
 
-![Screenshot 2025-06-26 122917](https://github.com/user-attachments/assets/23004b6f-0fae-4bf2-b0b6-d8ad86a0bedb)
+screenshot required
 
 
 
