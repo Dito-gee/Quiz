@@ -323,6 +323,12 @@ When one of the multiple choice radio button answers is selected the colour cons
 
 screenshot required
 
+Keyboard Navigation: Cannot navigate with Tab/Enter keys.
+
+Solution: Add tabindex to buttons and keydown event listeners.
+
+screenshot required
+
 
 
 ### Deployment
