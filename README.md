@@ -155,49 +155,66 @@ Wireframes for desktop, tablet and mobile phone devices were created using Balsa
 
 ### Features
 
-#### •	Responsive on all device sizes
+#### •	Clear Purpose and Simplicity: 
+The goal (take a timed quiz) is immediately obvious. The interface is uncluttered. The design is clean and minimalist.
 
-#### •	Usability
+#### •	Responsive Layout: 
+The quiz is usable on both desktop and mobile devices. Text and buttons scale appropriately.
 
-#### •	Navigation
+#### •	Progress Indicators:
+o The question counter (Question 1 of 10) tells users where they are in the process and how much is left.
 
-o	The name is present on the left side of the header together with phone number and email address and the navigation links are aligned to the right.
+o	The score updates instantly after each answer, providing clear feedback on performance.
 
-o	The user is given links to the home, about, portfolio and contact pages.
+#### •	Navigation Control:
+o	The ‘START QUIZ’ Button: Allows the user to move forward to the quiz questions.
 
-o	Each navigation link features a hover effect too provide visual feedback to the user.
+o	The ‘RESTART’ Button:  It allows the user to restart the quiz during or after completion of the quiz, giving them a sense of control.
 
-o	Each page features an active link to provide instant feedback to the user as to their location on the site.
+o	The ‘HOME’ Button:  It allows users to end the quiz during or after completion of the quiz, giving them a sense of control.
 
-o	The header is fully responsive and uniform across all three pages of the site.
+#### •	Immediate Feedback: 
+o After selecting an answer, the user instantly sees whether they were correct or incorrect and their score updates.
 
-o	On smaller screens a hamburger menu is provided to ensure mobile users have an optimal experience.
+o After completion of quiz the user receives their result with a message about their performance.
+
+#### •	Visual Feedback on Answer Selection: 
+When an answer is selected, there is an immediate change to the 	background colour of the selected button from either green or red. Green 	if it is correct. Red if it is wrong and the correct answer is  highlighted in 	green. The correct answer is also highlighted in green if no answer is given 	and the question has timed out.
+
+#### •	Time Constraint (The Timer): 
+This adds a classic gamification element that creates challenge and excitement. Once the timer ends the question automatically moves to the next, while giving a wrong answer result. The timer then restarts and repeats the same process if no answer is selected
+
+
 
 ### Testing Phase
 
+There are 2 types of testing. They are manual testing and automated testing. 
+
+o Manual Testing - Manual testing involves human testers executing test cases without automation tools. Testers follow predefined steps to validate functionality, UI/UX, and edge cases by interacting with the application as end-users would. 
+
+o Automated Testing - Automated testing uses scripts and tools  to execute predefined test cases without human intervention. It is best suited for repetitive, large-scale testing.
+
+###### Why I Used Manual Testing for This Project:
+•	The quiz is relatively simple with limited features.
+
+•	UI interactions (button clicks, timer, score tracking) are easily verifiable manually.
+
+•	No complex backend logic requiring repeated regression tests.
+
+
+
+
 #### Responsiveness
 
-•	Responsiveness was tested extensively using Chrome Dev Tools. This proved invaluable when creating each page and was instrumental in helping me ensure responsiveness on multiple devices and screen sizes. 
+•	Responsiveness was tested extensively using Chrome Dev Tools. This proved invaluable when creating each page and was instrumental in helping me ensure responsiveness on multiple devices and screen sizes.
 
-•	User testing was conducted on the following devices on various mobile (both android and iphone), desktop (windows desktop) and tablet (Samsung galaxy) devices. In each case, the pages responded as expected.
+<img width="1057" height="831" alt="Screenshot 2025-08-23 122010" src="https://github.com/user-attachments/assets/f5ea12cb-0106-4eb8-920e-c458e94b2187" />
 
-#### Functionality
+<img width="837" height="883" alt="Screenshot 2025-08-23 121924" src="https://github.com/user-attachments/assets/20386338-cbd3-4426-ba14-08c36f74b0e9" />
 
-•	Each feature was user-tested numerous times. All links were clicked and images checked.
 
-•	The header is responsive and each of the links and hamburger menu function as desired.
 
-•	The javascript behaves as expected regardless of the device.
-
-•	The social media links within the footer all work as expected on all pages, taking the user to the relevant link in a new tab.
-
-•	The download cv button works
-
-•	The phone and email links work
-
-•	The contact link within the cover-text takes the user to the contact page when clicked.
-
-•	On the contact page the form inputs and validation work as expected.
+•	User testing was conducted on the following devices on various mobile (both android and iphone), desktop (windows desktop) and tablet (Samsung galaxy) devices. In each case, the pages responded as expected.  
 
 •	I used Lighthouse to test website. Results below:
 
@@ -213,6 +230,100 @@ o	On smaller screens a hamburger menu is provided to ensure mobile users have an
 
 
 
+
+
+
+
+
+
+
+
+#### Functionality
+
+Each feature was user-tested numerous times.	All functionality works.
+
+##### 1. Start Quiz	button:
+
+Load the page and click the start button  
+
+<img width="1057" height="831" alt="Screenshot 2025-08-23 122010" src="https://github.com/user-attachments/assets/850d0907-f2d0-4b5f-a817-3bce35ce7c72" />
+
+
+###### The results:
+The first quiz question is displayed and the timer starts 
+
+<img width="1234" height="975" alt="Screenshot 2025-08-23 123259" src="https://github.com/user-attachments/assets/b72b0d73-c920-4301-8467-7b928cc12232" />
+
+
+##### 2. Answer buttons
+
+Select an answer option by clicking one of the multiple choice answer buttons
+
+###### The results: 
+o If correct the background colour of the selected button changes to green. 
+
+<img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/2742782c-ddb8-4668-8132-55550091660d" />
+
+
+o If wrong the background colour of the selected button changes to red and the correct answer is  highlighted in 	green. 
+
+<img width="1143" height="980" alt="Screenshot 2025-08-23 123048" src="https://github.com/user-attachments/assets/497a659b-570e-417c-8f99-ba900593f4c6" />
+
+
+o The correct answer is also highlighted in green if no answer is given and the question has timed out. 
+
+
+##### 3. Timer:
+Each question has a 60 second timer that counts down once a question begins.
+
+###### The results:
+o Timer counts down from 60 seconds. 
+
+o It also times out and moves to the next question if no answer is selected.
+
+o The timer restarts when on the next question
+
+<img width="1039" height="969" alt="Screenshot 2025-08-23 122850" src="https://github.com/user-attachments/assets/089d711b-2784-4bda-acfc-e86581aa008b" />
+
+
+##### 4. Score display:
+The score display updates instantly after each answer, providing clear feedback on performance. Maximum score is 10 out of 10. At the end of the questions the total score is displayed together with a message  providing feedback.
+
+<img width="1401" height="923" alt="Screenshot 2025-08-23 123145" src="https://github.com/user-attachments/assets/5f6d8aad-6721-4330-8a7b-b88d548fbd86" />
+
+
+##### 5. Question counter:
+The question counter (Question 1 of 10) updates enabling users to know where they are in the process and how much is left.
+
+<img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/30bc71bf-4ab3-45ca-a0d2-52eab9103ea5" />
+
+
+##### 6. Navigation control buttons:
+###### The ‘START QUIZ’ Button: 
+Allows the user to move forward to the quiz questions.
+
+###### The results:
+The quiz questions begin once the start quiz button is selected.
+
+<img width="1651" height="917" alt="Screenshot 2025-08-23 122045" src="https://github.com/user-attachments/assets/069e5efd-5be8-4a39-a71b-739211606467" />
+
+
+###### The ‘RESTART’ Button:  
+It allows the user to restart the quiz during or after completion of the quiz, giving them a sense of control.
+
+###### The results:
+The quiz questions restart from the beginning once the restart button is selected while answering the questions. If at the end where the total score and feedback message is displayed, you can also restart the quiz questions  
+
+<img width="1252" height="929" alt="Screenshot 2025-08-23 122808" src="https://github.com/user-attachments/assets/735379c3-20d7-4334-8eac-14f6478c1cfc" />
+
+
+###### The ‘HOME’ Button:  
+It allows users to end the quiz during or after completion of the quiz, giving them a sense of control.
+
+###### The results:
+The quiz questions end and the user is taken to the home page once the home button is selected. You can also end the quiz while in the middle of doing one.
+
+<img width="1401" height="923" alt="Screenshot 2025-08-23 123145" src="https://github.com/user-attachments/assets/d41798a0-cd1d-409e-a23c-ecace1e7e9bd" />
 
 
 #### Validators
@@ -250,66 +361,47 @@ o	On smaller screens a hamburger menu is provided to ensure mobile users have an
 
 #### Testing User Stories from User Experience (UX) Section
 ##### User Goals
-#### As a user, I want to easily understand the main purpose of the site and learn more about the named person’s profession.
+#### As a user, I want to easily understand the main purpose of the site.
 
-Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice.
+o The title is extremely clear and unambiguous. The user immediately knows it's a quiz site
 
-Underneath there is a content Hero with Text and a "DOWNLOAD MY CV" Call to action button.
-    
-The main points are made immediately with the content hero 
+o The "Start quiz" button is a strong, clear, and an actionable command. It leaves no doubt about what the user should do to begin the primary task. 
 
-![Screenshot 2025-06-26 120141](https://github.com/user-attachments/assets/bc9d761e-a498-4ab1-a081-0cecc4267550)
+o The "restart" button is a strong, clear, and an actionable command. It leaves no doubt about what the user should do if they want to restart the questions from the beginning.
+
+o The "home" button is a strong, clear, and an actionable command. It leaves no doubt about what the user should do if they want to end the questions.
+
+o The design is clean, minimal, and functional. It avoids unnecessary clutter that could distract from the site's purpose. The simple color scheme is neutral and appropriate for a quiz.
+
+o Within  seconds, a user can scan the page and answer: "This is a quiz. I can start it by clicking that start button." The site provides excellent and immediate clarity.
+
+o The scope or topic of the quiz is mentioned together with the rules, example " 10 questions , 60 seconds per question, score tracking". 
+
+screenshot
+
 
 #### As a user, I want to easily be able to navigate throughout the site to find content.
 
-The site has been designed to be fluid. At the top of the home page there are page heading links, each link describes a page and sends the user to the respective page when selected.
+o The "Start quiz" button on the homepage is perfectly clear and initiates the main content.
 
-The user can navigate the website to learn more about the named person’s profession using the following options, i.e.  click the call-to-action button to download cv, or scroll down, or click the navbar links (home, about, portfolio, contact) 
+o The "restart" and "home" buttons are present and functional. This is an excellent feature that gives users control and allows them to review content, which is a key navigation need.
 
-![Screenshot 2025-06-26 123209](https://github.com/user-attachments/assets/cc51cbc3-2bf4-460b-8177-cb75ab0dd554)
+o The "Question X of 10" text is present and functional. It tells users where they are in the structure of the quiz and how much content is left, preventing disorientation.
 
-#### As a user, I want to know more about the named person’s knowledge, experience and skills in the painting and decorating profession. 
- 
-I want to be able to locate their social media links to learn more about them.
+o The score is displayed prominently and updates in real-time. It is very easy for the user to find this key piece of content.
 
-I want to be able to download a copy of their CV.
+o After the final question the quiz ends. The user has the option to finish by selecting the "home" button or start afresh the questions by selecting the "restart" button
 
-I want to be able to see pictorial evidence of work done.
-
-![Screenshot 2025-06-26 124809](https://github.com/user-attachments/assets/d9c2e1bb-de84-4243-aa96-647fc2e857d9)
-
-![Screenshot 2025-06-26 124914](https://github.com/user-attachments/assets/0a10b6d7-86a1-45c8-a97c-cea82e6bdd0b)
-
-![Screenshot 2025-06-26 125245](https://github.com/user-attachments/assets/7fd52a08-64da-46cd-b5d5-75c4358e13b5)
-
-
-#### As a user, I want to find the best way to get in contact with the named person.
-
-The navigation bar clearly highlights the "Contact " Page. Here they can fill out the form on the page. Alternatively, they can contact the person via social media, email or phone. 
-
-The footer contains links to the named person’s Facebook, Twitter and Instagram page as well as his email and phone number.
-
-Email address and phone number can also be found in the header page.
-
-Whichever link they click, it will be open in a new tab to ensure the user can easily get back to the website.
-
-The email link is set up to automatically open your email app and autofill their email address in the "To" section.
-
-The phone link is set to automatically open in your phone ready to make call.
-
-![Screenshot 2025-06-26 131640](https://github.com/user-attachments/assets/a87e3e76-fda8-4936-8d9e-4a2e55297edb)
-
-![Screenshot 2025-06-26 131656](https://github.com/user-attachments/assets/cae927d1-f1f7-4ea0-bc50-60150f8d17b9)
-
-![Screenshot 2025-06-26 131625](https://github.com/user-attachments/assets/e81f6b0c-2d39-4e24-b308-5e91e4fc3257)
 
 ### Further Testing
 
 The Website was tested on Google Chrome and Microsoft Edge browsers.
 
-![Screenshot 2025-06-26 130924](https://github.com/user-attachments/assets/d13a9c75-f2d1-4a47-9a72-67ea5c6b70cd)
+<img width="1909" height="1097" alt="Screenshot 2025-08-26 160105" src="https://github.com/user-attachments/assets/3271519b-ab27-4e46-b540-177060685dd1" />
 
-![Screenshot 2025-06-26 131011](https://github.com/user-attachments/assets/bce4da33-be36-461a-a45f-cd1fb6f0f4ad)
+<img width="1912" height="1149" alt="Screenshot 2025-08-26 160345" src="https://github.com/user-attachments/assets/dd1bf25e-a516-4a11-8e71-40785fe0207c" />
+
+
 
 The website was viewed on a variety of devices such as Desktop, Laptop, tablet and mobile.
 
@@ -319,9 +411,14 @@ Friends were asked to review the site to point out any user experience issues.
 
 ### Known Bugs
 
-When one of the multiple choice radio button answers is selected the colour constrast is not good. I attempted to fix the bug without success. I reverted to the original code to prevent any issues and also because of time constraints.
+o When one of the multiple choice radio button answers is selected the colour constrast is not good. Due to time constraints I was not able to fix the bug. 
 
-screenshot required
+<img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/c0139753-ea18-4a57-b322-e2835630e5e3" />
+
+
+o There is also a problem with keyboard navigation. I cannot navigate with the Tab/Enter keys. Due to time constraints I was not able to fix the bug. 
+
+
 
 
 
@@ -332,7 +429,7 @@ I deployed the page on GitHub pages via the following procedure: -
 1.	From the project's repository, go to the Settings tab.
 2.	From the left-hand menu, select the Pages tab.
 3.	Under the Source section, select the Main branch from the drop-down menu and click Save.
-4.	A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.The live site can be found can be found at the following URL - https://dito-gee.github.io/Resume/
+4.	A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.The live site can be found can be found at the following URL - https://dito-gee.github.io/Quiz/
 
 ### Tech
 
@@ -353,116 +450,36 @@ The following software was used:
 
 •	Balsamiq wireframes software.
 
+• Visual studio code
+
+• Chrome Developer Tools
+
 ### Credits
 
 #### Content:
 
-##### The bootstrap JS javascript code (below) was taken from bootstrap 5 - CDN via jsDelivr.
-<script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js integrity="sha384j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"crossorigin="anonymous"></script>
-t>
+• All quiz questions and answers were written specifically for this project by the author.
 
-##### The Bootstrap CSS link javascript code (below) was taken from bootstrap 5 - CDN via jsDelivr.
-<link href=https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css rel="stylesheet” integrity="sha3844Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-
-
-##### The Lightbox enhancement for better "view project" functionality javascript code (below) was taken from Lightbox2 Library version 2.11.3 - cdnjs.cloudflare.com.
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-<script>
-lightbox.option({
-'resizeDuration': 200,
-'wrapAround': true
-})
-</script>
-
-
-##### The javascript code (below) was taken from WebKit Bug #10660 (Oct 2006)
-
-<script>
-//  Update copyright year automatically
-document.getElementById('year').textContent = new Date().getFullYear();
-
-The javascript code (below) was taken from CSS-Tricks (2018).
-
-
-// Smooth scrolling for navigation links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-anchor.addEventListener('click', function (e) {
-e.preventDefault();
-document.querySelector(this.getAttribute('href')).scrollIntoView({
-behavior: 'smooth'
-});
-});
-});
-
-The javascript code (below) was taken from Stack Overflow (2020–2021).
-
-
-// Close mobile menu when clicking a nav link
-const navLinks = document.querySelectorAll('.nav-link');
-const navbarCollapse = document.querySelector('.navbar-collapse');
-
-navLinks.forEach(link => {
-link.addEventListener('click', () => {
-if (navbarCollapse.classList.contains('show')) {
-const bsCollapse = new bootstrap.Collapse(navbarCollapse);
-bsCollapse.hide();
-}
-});
-o	});
-</script>
-
-
-##### The  navigation section code (below) was derived with the help of Bootstrap 5 Navbar Docs.
-
-    
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand me-5" href="index.html">Nderitu Githaiga</a>
-            <!-- Phone number -->
-            <p class="contact-item" style="margin-right: 20px;">
-                <i class="fas fa-phone contact-icon"></i>
-                <a href="tel:+447851349247 ">+44 7851349247</a>
-            </p>
-            <!-- Email address -->
-            <p>
-                <i class="fas fa-envelope contact-icon "></i>
-                <a href="mailto:nderitug@yahoo.com">nderitug@yahoo.com</a>
-            </p>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-Social media, phone and email icons were taken from https://fontawesome.com/
-
-The contact form is loosely based on Code Insitute's Love Running walkthrough project.
+• The instructional text on the website ("Test your knowledge!", "Score:", etc.) was created by the author.
 
 ### Media:
 
-•	The profile image is of myself taken by me.
+• This project uses a minimal design and does not rely on external images, icons, or graphics. All visual elements were created using custom CSS.
 
-•	All the images used are my own personal images taken at work.
+### Code:
+
+• The vast majority of the code (HTML, CSS, JavaScript) was written by the author.
+
+• The following external resources were referenced for learning, troubleshooting, and inspiration:
+
+    o MDN Web Docs: Invaluable reference for JavaScript concepts (e.g., addEventListener, setInterval, Array methods) and CSS properties.
+
+    o W3Schools: Used for quick reference on JavaScript and CSS syntax.
+
+    o Stack Overflow: Consulted for solutions to specific programming challenges, such as managing timer intervals.
+
+• Any code snippets inspired by or adapted from the above sources are credited in code comments above the relevant sections.
+
 
 ### Honorable mentions
 
