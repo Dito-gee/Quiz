@@ -25,7 +25,7 @@ This is a specialized quiz application designed to:
 
 •	Educators and Assessors
 
-### User Stories: 
+### User Experience (UX) - User Stories: 
 
 #### Painting and Decorating Students & Apprentices
  •   As a Painting apprentice I want to test my technical knowledge so that I can prepare for trade certification exams  
