@@ -413,11 +413,12 @@ Friends were asked to review the site to point out any user experience issues.
 
 o When one of the multiple choice radio button answers is selected the colour constrast is not good. Due to time constraints I was not able fix the bug. 
 
-screenshot required
+<img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/c0139753-ea18-4a57-b322-e2835630e5e3" />
 
-o There is a problem with keyboard navigation. I cannot navigate with the Tab/Enter keys. Due to time constraints I was not able fix the bug. 
 
-screenshot required
+o There is also a problem with keyboard navigation. I cannot navigate with the Tab/Enter keys. Due to time constraints I was not able fix the bug. 
+
+
 
 
 
