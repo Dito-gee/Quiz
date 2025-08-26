@@ -179,7 +179,7 @@ o After selecting an answer, the user instantly sees whether they were correct o
 o After completion of quiz the user receives their result with a message about their performance.
 
 #### •	Visual Feedback on Answer Selection: 
-When an answer is selected, there is an immediately change to the 	background colour of the selected button from either green or red. Green 	if it is correct. Red if it is wrong and the correct answer is  highlighted in 	green. The correct answer is also highlighted in green if no answer is given 	and the question has timed out.
+When an answer is selected, there is an immediate change to the 	background colour of the selected button from either green or red. Green 	if it is correct. Red if it is wrong and the correct answer is  highlighted in 	green. The correct answer is also highlighted in green if no answer is given 	and the question has timed out.
 
 #### •	Time Constraint (The Timer): 
 This adds a classic gamification element that creates challenge and excitement. Once the timer ends the question automatically moves to the next, while giving a wrong answer result. The timer then restarts and repeats the same process if no answer is selected
@@ -312,7 +312,7 @@ The quiz questions begin once the start quiz button is selected.
 It allows the user to restart the quiz during or after completion of the quiz, giving them a sense of control.
 
 ###### The results:
-The quiz questions restart from the beginning once the restart button is selected while answering the questions. If at the end the where the total score and feedback message is displayed,  
+The quiz questions restart from the beginning once the restart button is selected while answering the questions. If at the end where the total score and feedback message is displayed, you can also restart the quiz questions  
 
 <img width="1252" height="929" alt="Screenshot 2025-08-23 122808" src="https://github.com/user-attachments/assets/735379c3-20d7-4334-8eac-14f6478c1cfc" />
 
@@ -321,7 +321,7 @@ The quiz questions restart from the beginning once the restart button is selecte
 It allows users to end the quiz during or after completion of the quiz, giving them a sense of control.
 
 ###### The results:
-The quiz questions end and the user is taken to the home page once the home button is selected.
+The quiz questions end and the user is taken to the home page once the home button is selected. You can also end the quiz while in the middle of doing one.
 
 <img width="1401" height="923" alt="Screenshot 2025-08-23 123145" src="https://github.com/user-attachments/assets/d41798a0-cd1d-409e-a23c-ecace1e7e9bd" />
 
@@ -373,7 +373,7 @@ o The "home" button is a strong, clear, and an actionable command. It leaves no 
 
 o The design is clean, minimal, and functional. It avoids unnecessary clutter that could distract from the site's purpose. The simple color scheme is neutral and appropriate for a quiz.
 
-o Within  seconds, a user can scan the page and answer: "This is a quiz. I can start it by clicking that start button." the site provides excellent and immediate clarity.
+o Within  seconds, a user can scan the page and answer: "This is a quiz. I can start it by clicking that start button." The site provides excellent and immediate clarity.
 
 o The scope or topic of the quiz is mentioned together with the rules, example " 10 questions , 60 seconds per question, score tracking". 
 
@@ -411,12 +411,12 @@ Friends were asked to review the site to point out any user experience issues.
 
 ### Known Bugs
 
-o When one of the multiple choice radio button answers is selected the colour constrast is not good. Due to time constraints I was not able fix the bug. 
+o When one of the multiple choice radio button answers is selected the colour constrast is not good. Due to time constraints I was not able to fix the bug. 
 
 <img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/c0139753-ea18-4a57-b322-e2835630e5e3" />
 
 
-o There is also a problem with keyboard navigation. I cannot navigate with the Tab/Enter keys. Due to time constraints I was not able fix the bug. 
+o There is also a problem with keyboard navigation. I cannot navigate with the Tab/Enter keys. Due to time constraints I was not able to fix the bug. 
 
 
 
