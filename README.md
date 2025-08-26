@@ -167,7 +167,7 @@ o The question counter (Question 1 of 10) tells users where they are in the proc
 o	The score updates instantly after each answer, providing clear feedback on performance.
 
 #### •	Navigation Control:
-o	The ‘START QUIZ’ Button: Allows the user to move forward the quiz questions.
+o	The ‘START QUIZ’ Button: Allows the user to move forward to the quiz questions.
 
 o	The ‘RESTART’ Button:  It allows the user to restart the quiz during or after completion of the quiz, giving them a sense of control.
 
@@ -254,14 +254,14 @@ o It also times out and moves to the next question if no answer is selected.
 o The timer restarts when on the next question
 
 ##### 4. Score display:
-The score display updates instantly after each answer, providing clear feedback on performance. Maximum score is 10 out of 10
+The score display updates instantly after each answer, providing clear feedback on performance. Maximum score is 10 out of 10. At the end of the questions the total score is displayed together with a message  providing feedback.
 
 ##### 5. Question counter:
 The question counter (Question 1 of 10) updates enabling users to know where they are in the process and how much is left.
 
 ##### 6. Navigation control buttons:
 ###### The ‘START QUIZ’ Button: 
-Allows the user to move forward the quiz questions.
+Allows the user to move forward to the quiz questions.
 
 ###### The results:
 The quiz questions begin once the start quiz button is selected.
