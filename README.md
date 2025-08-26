@@ -190,27 +190,9 @@ This adds a classic gamification element that creates challenge and excitement. 
 
 #### Responsiveness
 
-•	Responsiveness was tested extensively using Chrome Dev Tools. This proved invaluable when creating each page and was instrumental in helping me ensure responsiveness on multiple devices and screen sizes. 
+•	Responsiveness was tested extensively using Chrome Dev Tools. This proved invaluable when creating each page and was instrumental in helping me ensure responsiveness on multiple devices and screen sizes.
 
-•	User testing was conducted on the following devices on various mobile (both android and iphone), desktop (windows desktop) and tablet (Samsung galaxy) devices. In each case, the pages responded as expected.
-
-#### Functionality
-
-•	Each feature was user-tested numerous times. All links were clicked and images checked.
-
-•	The header is responsive and each of the links and hamburger menu function as desired.
-
-•	The javascript behaves as expected regardless of the device.
-
-•	The social media links within the footer all work as expected on all pages, taking the user to the relevant link in a new tab.
-
-•	The download cv button works
-
-•	The phone and email links work
-
-•	The contact link within the cover-text takes the user to the contact page when clicked.
-
-•	On the contact page the form inputs and validation work as expected.
+•	User testing was conducted on the following devices on various mobile (both android and iphone), desktop (windows desktop) and tablet (Samsung galaxy) devices. In each case, the pages responded as expected.  
 
 •	I used Lighthouse to test website. Results below:
 
@@ -223,6 +205,84 @@ This adds a classic gamification element that creates challenge and excitement. 
 ###### Mobile
 
 <img width="1091" height="1018" alt="Lighthouse Report Viewer 2" src="https://github.com/user-attachments/assets/060817fb-f07b-405a-988c-40edf86c860f" />
+
+
+
+
+
+
+
+
+
+
+
+#### Functionality
+
+Each feature was user-tested numerous times.	All functionality works.
+
+##### 1. Start Quiz	button:
+
+Load the page and click the start button  
+
+###### The results:
+The first quiz question is displayed and the timer starts 
+
+screenshot
+
+##### 2. Answer buttons
+
+Select an answer option by clicking one of the multiple choice answer buttons
+
+###### The results: 
+o If correct the background colour of the selected button changes to green. 
+
+o If wrong the background colour of the selected button changes to red and the correct answer is  highlighted in 	green. 
+
+o The correct answer is also highlighted in green if no answer is given and the question has timed out. 
+
+
+screenshot
+
+##### 3. Timer:
+Each question has a 60 second timer that counts down once a question begins.
+
+###### The results:
+o Timer counts down from 60 seconds. 
+
+o It also times out and moves to the next question if no answer is selected.
+
+o The timer restarts when on the next question
+
+##### 4. Score display:
+The score display updates instantly after each answer, providing clear feedback on performance. Maximum score is 10 out of 10
+
+##### 5. Question counter:
+The question counter (Question 1 of 10) updates enabling users to know where they are in the process and how much is left.
+
+##### 6. Navigation control buttons:
+###### The ‘START QUIZ’ Button: 
+Allows the user to move forward the quiz questions.
+
+###### The results:
+The quiz questions begin once the start quiz button is selected.
+
+###### The ‘RESTART’ Button:  
+It allows the user to restart the quiz during or after completion of the quiz, giving them a sense of control.
+
+###### The results:
+The quiz questions restart from the beginning once the restart button is selected while answering the questions. If at the end the where the total score and feedback message is displayed,   
+
+###### The ‘HOME’ Button:  
+It allows users to end the quiz during or after completion of the quiz, giving them a sense of control.
+
+###### The results:
+The quiz questions end and the user is taken to the home page once the home button is selected.
+
+
+
+
+
+
 
 
 
