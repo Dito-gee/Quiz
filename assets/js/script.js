@@ -303,4 +303,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // copyright
-document.getElementById('copyright-year').textContent = new Date().getFullYear();
+ if (document.getElementById('copyright-year')) {
+            document.getElementById('copyright-year').textContent = new Date().getFullYear();
+        }
