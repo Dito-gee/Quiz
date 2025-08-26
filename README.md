@@ -220,6 +220,9 @@ When an answer is selected, there is an immediate change to the 	background colo
 #### •	Time Constraint (The Timer): 
 This adds a classic gamification element that creates challenge and excitement. Once the timer ends the question automatically moves to the next, while giving a wrong answer result. The timer then restarts and repeats the same process if no answer is selected
 
+<img width="1039" height="969" alt="Screenshot 2025-08-23 122850" src="https://github.com/user-attachments/assets/283afe86-0b9a-4ce4-b911-e61856f046ed" />
+
+
 
 
 ### Testing Phase
