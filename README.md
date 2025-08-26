@@ -25,7 +25,7 @@ This is a specialized quiz application designed to:
 
 •	Educators and Assessors
 
-### User Stories:
+### User Stories: 
 
 #### Painting and Decorating Students & Apprentices
  •   As a Painting apprentice I want to test my technical knowledge so that I can prepare for trade certification exams  
@@ -218,7 +218,7 @@ When an answer is selected, there is an immediate change to the 	background colo
 
 
 #### •	Time Constraint (The Timer): 
-This adds a classic gamification element that creates challenge and excitement. Once the timer ends the question automatically moves to the next, while giving a wrong answer result. The timer then restarts and repeats the same process if no answer is selected
+This adds a classic gamification element that creates challenge and excitement. 60 seconds per question. Once the timer ends the question automatically moves to the next, while giving a wrong answer result. The timer then restarts and repeats the same process if no answer is selected. 
 
 <img width="1039" height="969" alt="Screenshot 2025-08-23 122850" src="https://github.com/user-attachments/assets/283afe86-0b9a-4ce4-b911-e61856f046ed" />
 
@@ -387,7 +387,8 @@ The quiz questions end and the user is taken to the home page once the home butt
 
 • Javascript Validation using JSHint
 
-<img width="1867" height="964" alt="jshint 2025-08-16 134311" src="https://github.com/user-attachments/assets/b33e7855-78c3-4410-9bef-1c91d8d9364e" />
+<img width="1268" height="1200" alt="Screenshot 2025-08-26 at 19 16 00" src="https://github.com/user-attachments/assets/efb95b5d-159a-464e-bffc-13eb5bf4f992" />
+
 
 
 • Javascript Validation using JSLint
@@ -416,7 +417,6 @@ o Within  seconds, a user can scan the page and answer: "This is a quiz. I can s
 
 o The scope or topic of the quiz is mentioned together with the rules, example " 10 questions , 60 seconds per question, score tracking". 
 
-screenshot
 
 
 #### As a user, I want to easily be able to navigate throughout the site to find content.
