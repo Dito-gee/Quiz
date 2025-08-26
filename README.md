@@ -155,23 +155,36 @@ Wireframes for desktop, tablet and mobile phone devices were created using Balsa
 
 ### Features
 
-#### •	Responsive on all device sizes
+#### •	Clear Purpose and Simplicity: 
+The goal (take a timed quiz) is immediately obvious. The interface is uncluttered. The design is clean and minimalist.
 
-#### •	Usability
+#### •	Responsive Layout: 
+The quiz is usable on both desktop and mobile devices. Text and buttons scale appropriately.
 
-#### •	Navigation
+#### •	Progress Indicators:
+o The question counter (Question 1 of 10) tells users where they are in the process and how much is left.
 
-o	The name is present on the left side of the header together with phone number and email address and the navigation links are aligned to the right.
+o	The score updates instantly after each answer, providing clear feedback on performance.
 
-o	The user is given links to the home, about, portfolio and contact pages.
+#### •	Navigation Control:
+o	The ‘START QUIZ’ Button: Allows the user to move forward the quiz questions.
 
-o	Each navigation link features a hover effect too provide visual feedback to the user.
+o	The ‘RESTART’ Button:  It allows the user to restart the quiz during or after completion of the quiz, giving them a sense of control.
 
-o	Each page features an active link to provide instant feedback to the user as to their location on the site.
+o	The ‘HOME’ Button:  It allows users to end the quiz during or after completion of the quiz, giving them a sense of control.
 
-o	The header is fully responsive and uniform across all three pages of the site.
+#### •	Immediate Feedback: 
+o After selecting an answer, the user instantly sees whether they were correct or incorrect and their score updates.
 
-o	On smaller screens a hamburger menu is provided to ensure mobile users have an optimal experience.
+o After completion of quiz the user receives their result with a message about their performance.
+
+#### •	Visual Feedback on Answer Selection: 
+When an answer is selected, there is an immediately change to the 	background colour of the selected button from either green or red. Green 	if it is correct. Red if it is wrong and the correct answer is  highlighted in 	green. The correct answer is also highlighted in green if no answer is given 	and the question has timed out.
+
+#### •	Time Constraint (The Timer): 
+This adds a classic gamification element that creates challenge and excitement. Once the timer ends the question automatically moves to the next, while giving a wrong answer result. The timer then restarts and repeats the same process if no answer is selected
+
+
 
 ### Testing Phase
 
