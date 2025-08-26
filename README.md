@@ -323,66 +323,43 @@ The quiz questions end and the user is taken to the home page once the home butt
 
 #### Testing User Stories from User Experience (UX) Section
 ##### User Goals
-#### As a user, I want to easily understand the main purpose of the site and learn more about the named person’s profession.
+#### As a user, I want to easily understand the main purpose of the site.
 
-Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice.
+o The title is extremely clear and unambiguous. The user immediately knows it's a quiz site
 
-Underneath there is a content Hero with Text and a "DOWNLOAD MY CV" Call to action button.
-    
-The main points are made immediately with the content hero 
+o The "Start quiz" button is a strong, clear, and an actionable command. It leaves no doubt about what the user should do to begin the primary task. 
 
-![Screenshot 2025-06-26 120141](https://github.com/user-attachments/assets/bc9d761e-a498-4ab1-a081-0cecc4267550)
+o The "restart" button is a strong, clear, and an actionable command. It leaves no doubt about what the user should do if they want to restart the questions from the beginning.
+
+o The "home" button is a strong, clear, and an actionable command. It leaves no doubt about what the user should do if they want to end the questions.
+
+o The design is clean, minimal, and functional. It avoids unnecessary clutter that could distract from the site's purpose. The simple color scheme is neutral and appropriate for a quiz.
+
+o Within  seconds, a user can scan the page and answer: "This is a quiz. I can start it by clicking that start button." the site provides excellent and immediate clarity.
+
+o The scope or topic of the quiz is mentioned together with the rules, example " 10 questions , 60 seconds per question, score tracking". 
+
+screenshot
+
 
 #### As a user, I want to easily be able to navigate throughout the site to find content.
 
-The site has been designed to be fluid. At the top of the home page there are page heading links, each link describes a page and sends the user to the respective page when selected.
+o The "Start quiz" button on the homepage is perfectly clear and initiates the main content.
 
-The user can navigate the website to learn more about the named person’s profession using the following options, i.e.  click the call-to-action button to download cv, or scroll down, or click the navbar links (home, about, portfolio, contact) 
+o The "restart" and "home" buttons are present and functional. This is an excellent feature that gives users control and allows them to review content, which is a key navigation need.
 
-![Screenshot 2025-06-26 123209](https://github.com/user-attachments/assets/cc51cbc3-2bf4-460b-8177-cb75ab0dd554)
+o The "Question X of 10" text is present and functional. It tells users where they are in the structure of the quiz and how much content is left, preventing disorientation.
 
-#### As a user, I want to know more about the named person’s knowledge, experience and skills in the painting and decorating profession. 
- 
-I want to be able to locate their social media links to learn more about them.
+o The score is displayed prominently and updates in real-time. It is very easy for the user to find this key piece of content.
 
-I want to be able to download a copy of their CV.
+o After the final question the quiz ends. The user has the option to finish by selecting the "home" button or start afresh the questions by selecting the "restart" button
 
-I want to be able to see pictorial evidence of work done.
-
-![Screenshot 2025-06-26 124809](https://github.com/user-attachments/assets/d9c2e1bb-de84-4243-aa96-647fc2e857d9)
-
-![Screenshot 2025-06-26 124914](https://github.com/user-attachments/assets/0a10b6d7-86a1-45c8-a97c-cea82e6bdd0b)
-
-![Screenshot 2025-06-26 125245](https://github.com/user-attachments/assets/7fd52a08-64da-46cd-b5d5-75c4358e13b5)
-
-
-#### As a user, I want to find the best way to get in contact with the named person.
-
-The navigation bar clearly highlights the "Contact " Page. Here they can fill out the form on the page. Alternatively, they can contact the person via social media, email or phone. 
-
-The footer contains links to the named person’s Facebook, Twitter and Instagram page as well as his email and phone number.
-
-Email address and phone number can also be found in the header page.
-
-Whichever link they click, it will be open in a new tab to ensure the user can easily get back to the website.
-
-The email link is set up to automatically open your email app and autofill their email address in the "To" section.
-
-The phone link is set to automatically open in your phone ready to make call.
-
-![Screenshot 2025-06-26 131640](https://github.com/user-attachments/assets/a87e3e76-fda8-4936-8d9e-4a2e55297edb)
-
-![Screenshot 2025-06-26 131656](https://github.com/user-attachments/assets/cae927d1-f1f7-4ea0-bc50-60150f8d17b9)
-
-![Screenshot 2025-06-26 131625](https://github.com/user-attachments/assets/e81f6b0c-2d39-4e24-b308-5e91e4fc3257)
 
 ### Further Testing
 
 The Website was tested on Google Chrome and Microsoft Edge browsers.
 
-![Screenshot 2025-06-26 130924](https://github.com/user-attachments/assets/d13a9c75-f2d1-4a47-9a72-67ea5c6b70cd)
-
-![Screenshot 2025-06-26 131011](https://github.com/user-attachments/assets/bce4da33-be36-461a-a45f-cd1fb6f0f4ad)
+screenshots
 
 The website was viewed on a variety of devices such as Desktop, Laptop, tablet and mobile.
 
@@ -392,13 +369,11 @@ Friends were asked to review the site to point out any user experience issues.
 
 ### Known Bugs
 
-When one of the multiple choice radio button answers is selected the colour constrast is not good. I attempted to fix the bug without success. I reverted to the original code to prevent any issues and also because of time constraints.
+o When one of the multiple choice radio button answers is selected the colour constrast is not good. Due to time constraints I was not able fix the bug. 
 
 screenshot required
 
-Keyboard Navigation: Cannot navigate with Tab/Enter keys.
-
-Solution: Add tabindex to buttons and keydown event listeners.
+o There is a problem with keyboard navigation. I cannot navigate with the Tab/Enter keys. Due to time constraints I was not able fix the bug. 
 
 screenshot required
 
@@ -411,7 +386,7 @@ I deployed the page on GitHub pages via the following procedure: -
 1.	From the project's repository, go to the Settings tab.
 2.	From the left-hand menu, select the Pages tab.
 3.	Under the Source section, select the Main branch from the drop-down menu and click Save.
-4.	A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.The live site can be found can be found at the following URL - https://dito-gee.github.io/Resume/
+4.	A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.The live site can be found can be found at the following URL - https://dito-gee.github.io/Quiz/
 
 ### Tech
 
