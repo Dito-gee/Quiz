@@ -158,28 +158,64 @@ Wireframes for desktop, tablet and mobile phone devices were created using Balsa
 #### •	Clear Purpose and Simplicity: 
 The goal (take a timed quiz) is immediately obvious. The interface is uncluttered. The design is clean and minimalist.
 
+<img width="1057" height="831" alt="Screenshot 2025-08-23 122010" src="https://github.com/user-attachments/assets/091a7821-a005-4805-b89f-5a546201d6ab" />
+
+
 #### •	Responsive Layout: 
 The quiz is usable on both desktop and mobile devices. Text and buttons scale appropriately.
+
+<img width="837" height="883" alt="Screenshot 2025-08-23 121924" src="https://github.com/user-attachments/assets/b7c06842-380a-4fdb-af7b-c3774c6e81e7" />
+
+
+<img width="1651" height="917" alt="Screenshot 2025-08-23 122045" src="https://github.com/user-attachments/assets/7be52b4d-a564-435d-aa94-187cc6337289" />
+
+
 
 #### •	Progress Indicators:
 o The question counter (Question 1 of 10) tells users where they are in the process and how much is left.
 
 o	The score updates instantly after each answer, providing clear feedback on performance.
 
+<img width="1039" height="969" alt="Screenshot 2025-08-23 122850" src="https://github.com/user-attachments/assets/765bc9b3-a2cb-46a1-affb-e475ee0d4ab3" />
+
+
 #### •	Navigation Control:
 o	The ‘START QUIZ’ Button: Allows the user to move forward to the quiz questions.
 
+<img width="1651" height="917" alt="Screenshot 2025-08-23 122045" src="https://github.com/user-attachments/assets/30361023-6e10-4df1-bf0c-d1acd393b230" />
+
+
 o	The ‘RESTART’ Button:  It allows the user to restart the quiz during or after completion of the quiz, giving them a sense of control.
 
+<img width="1234" height="975" alt="Screenshot 2025-08-23 123259" src="https://github.com/user-attachments/assets/37857a62-6346-4e2f-813a-16721fd8aa98" />
+
+
 o	The ‘HOME’ Button:  It allows users to end the quiz during or after completion of the quiz, giving them a sense of control.
+
+<img width="1401" height="923" alt="Screenshot 2025-08-23 123145" src="https://github.com/user-attachments/assets/b22c4169-d6e0-4ae2-a48d-f39a3b005de6" />
+
 
 #### •	Immediate Feedback: 
 o After selecting an answer, the user instantly sees whether they were correct or incorrect and their score updates.
 
+<img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/65656995-bd9b-43d8-9c9e-a8077b95957a" />
+
+<img width="1143" height="980" alt="Screenshot 2025-08-23 123048" src="https://github.com/user-attachments/assets/79047e63-c732-4f9b-ae50-9ef1851daf10" />
+
+
 o After completion of quiz the user receives their result with a message about their performance.
+
+<img width="1401" height="923" alt="Screenshot 2025-08-23 123145" src="https://github.com/user-attachments/assets/8ce159c1-5633-4d09-bfe1-0fd00660deeb" />
+
 
 #### •	Visual Feedback on Answer Selection: 
 When an answer is selected, there is an immediate change to the 	background colour of the selected button from either green or red. Green 	if it is correct. Red if it is wrong and the correct answer is  highlighted in 	green. The correct answer is also highlighted in green if no answer is given 	and the question has timed out.
+
+<img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/35c49fe4-b2ad-4caa-b34b-f2a14ac18b24" />
+
+<img width="1143" height="980" alt="Screenshot 2025-08-23 123048" src="https://github.com/user-attachments/assets/45eaaffc-4e90-4360-a2fb-c72dcb6d44e8" />
+
+
 
 #### •	Time Constraint (The Timer): 
 This adds a classic gamification element that creates challenge and excitement. Once the timer ends the question automatically moves to the next, while giving a wrong answer result. The timer then restarts and repeats the same process if no answer is selected
