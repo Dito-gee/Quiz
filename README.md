@@ -188,9 +188,31 @@ This adds a classic gamification element that creates challenge and excitement. 
 
 ### Testing Phase
 
+There are 2 types of testing. They are manual testing and automated testing. 
+
+o Manual Testing - Manual testing involves human testers executing test cases without automation tools. Testers follow predefined steps to validate functionality, UI/UX, and edge cases by interacting with the application as end-users would. 
+
+o Automated Testing - Automated testing uses scripts and tools  to execute predefined test cases without human intervention. It is best suited for repetitive, large-scale testing.
+
+###### Why I Used Manual Testing for This Project:
+•	The quiz is relatively simple with limited features.
+
+•	UI interactions (button clicks, timer, score tracking) are easily verifiable manually.
+
+•	No complex backend logic requiring repeated regression tests.
+
+
+
+
 #### Responsiveness
 
 •	Responsiveness was tested extensively using Chrome Dev Tools. This proved invaluable when creating each page and was instrumental in helping me ensure responsiveness on multiple devices and screen sizes.
+
+<img width="1057" height="831" alt="Screenshot 2025-08-23 122010" src="https://github.com/user-attachments/assets/f5ea12cb-0106-4eb8-920e-c458e94b2187" />
+
+<img width="837" height="883" alt="Screenshot 2025-08-23 121924" src="https://github.com/user-attachments/assets/20386338-cbd3-4426-ba14-08c36f74b0e9" />
+
+
 
 •	User testing was conducted on the following devices on various mobile (both android and iphone), desktop (windows desktop) and tablet (Samsung galaxy) devices. In each case, the pages responded as expected.  
 
@@ -224,10 +246,14 @@ Each feature was user-tested numerous times.	All functionality works.
 
 Load the page and click the start button  
 
+<img width="1057" height="831" alt="Screenshot 2025-08-23 122010" src="https://github.com/user-attachments/assets/850d0907-f2d0-4b5f-a817-3bce35ce7c72" />
+
+
 ###### The results:
 The first quiz question is displayed and the timer starts 
 
-screenshot
+<img width="1234" height="975" alt="Screenshot 2025-08-23 123259" src="https://github.com/user-attachments/assets/b72b0d73-c920-4301-8467-7b928cc12232" />
+
 
 ##### 2. Answer buttons
 
@@ -236,12 +262,16 @@ Select an answer option by clicking one of the multiple choice answer buttons
 ###### The results: 
 o If correct the background colour of the selected button changes to green. 
 
+<img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/2742782c-ddb8-4668-8132-55550091660d" />
+
+
 o If wrong the background colour of the selected button changes to red and the correct answer is  highlighted in 	green. 
+
+<img width="1143" height="980" alt="Screenshot 2025-08-23 123048" src="https://github.com/user-attachments/assets/497a659b-570e-417c-8f99-ba900593f4c6" />
+
 
 o The correct answer is also highlighted in green if no answer is given and the question has timed out. 
 
-
-screenshot
 
 ##### 3. Timer:
 Each question has a 60 second timer that counts down once a question begins.
@@ -253,11 +283,20 @@ o It also times out and moves to the next question if no answer is selected.
 
 o The timer restarts when on the next question
 
+<img width="1039" height="969" alt="Screenshot 2025-08-23 122850" src="https://github.com/user-attachments/assets/089d711b-2784-4bda-acfc-e86581aa008b" />
+
+
 ##### 4. Score display:
 The score display updates instantly after each answer, providing clear feedback on performance. Maximum score is 10 out of 10. At the end of the questions the total score is displayed together with a message  providing feedback.
 
+<img width="1401" height="923" alt="Screenshot 2025-08-23 123145" src="https://github.com/user-attachments/assets/5f6d8aad-6721-4330-8a7b-b88d548fbd86" />
+
+
 ##### 5. Question counter:
 The question counter (Question 1 of 10) updates enabling users to know where they are in the process and how much is left.
+
+<img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/30bc71bf-4ab3-45ca-a0d2-52eab9103ea5" />
+
 
 ##### 6. Navigation control buttons:
 ###### The ‘START QUIZ’ Button: 
@@ -266,11 +305,17 @@ Allows the user to move forward to the quiz questions.
 ###### The results:
 The quiz questions begin once the start quiz button is selected.
 
+<img width="1651" height="917" alt="Screenshot 2025-08-23 122045" src="https://github.com/user-attachments/assets/069e5efd-5be8-4a39-a71b-739211606467" />
+
+
 ###### The ‘RESTART’ Button:  
 It allows the user to restart the quiz during or after completion of the quiz, giving them a sense of control.
 
 ###### The results:
-The quiz questions restart from the beginning once the restart button is selected while answering the questions. If at the end the where the total score and feedback message is displayed,   
+The quiz questions restart from the beginning once the restart button is selected while answering the questions. If at the end the where the total score and feedback message is displayed,  
+
+<img width="1252" height="929" alt="Screenshot 2025-08-23 122808" src="https://github.com/user-attachments/assets/735379c3-20d7-4334-8eac-14f6478c1cfc" />
+
 
 ###### The ‘HOME’ Button:  
 It allows users to end the quiz during or after completion of the quiz, giving them a sense of control.
@@ -278,14 +323,7 @@ It allows users to end the quiz during or after completion of the quiz, giving t
 ###### The results:
 The quiz questions end and the user is taken to the home page once the home button is selected.
 
-
-
-
-
-
-
-
-
+<img width="1401" height="923" alt="Screenshot 2025-08-23 123145" src="https://github.com/user-attachments/assets/d41798a0-cd1d-409e-a23c-ecace1e7e9bd" />
 
 
 #### Validators
@@ -359,7 +397,11 @@ o After the final question the quiz ends. The user has the option to finish by s
 
 The Website was tested on Google Chrome and Microsoft Edge browsers.
 
-screenshots
+<img width="1909" height="1097" alt="Screenshot 2025-08-26 160105" src="https://github.com/user-attachments/assets/3271519b-ab27-4e46-b540-177060685dd1" />
+
+<img width="1912" height="1149" alt="Screenshot 2025-08-26 160345" src="https://github.com/user-attachments/assets/dd1bf25e-a516-4a11-8e71-40785fe0207c" />
+
+
 
 The website was viewed on a variety of devices such as Desktop, Laptop, tablet and mobile.
 
@@ -407,116 +449,36 @@ The following software was used:
 
 •	Balsamiq wireframes software.
 
+• Visual studio code
+
+• Chrome Developer Tools
+
 ### Credits
 
 #### Content:
 
-##### The bootstrap JS javascript code (below) was taken from bootstrap 5 - CDN via jsDelivr.
-<script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js integrity="sha384j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"crossorigin="anonymous"></script>
-t>
+• All quiz questions and answers were written specifically for this project by the author.
 
-##### The Bootstrap CSS link javascript code (below) was taken from bootstrap 5 - CDN via jsDelivr.
-<link href=https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css rel="stylesheet” integrity="sha3844Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-
-
-##### The Lightbox enhancement for better "view project" functionality javascript code (below) was taken from Lightbox2 Library version 2.11.3 - cdnjs.cloudflare.com.
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-<script>
-lightbox.option({
-'resizeDuration': 200,
-'wrapAround': true
-})
-</script>
-
-
-##### The javascript code (below) was taken from WebKit Bug #10660 (Oct 2006)
-
-<script>
-//  Update copyright year automatically
-document.getElementById('year').textContent = new Date().getFullYear();
-
-The javascript code (below) was taken from CSS-Tricks (2018).
-
-
-// Smooth scrolling for navigation links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-anchor.addEventListener('click', function (e) {
-e.preventDefault();
-document.querySelector(this.getAttribute('href')).scrollIntoView({
-behavior: 'smooth'
-});
-});
-});
-
-The javascript code (below) was taken from Stack Overflow (2020–2021).
-
-
-// Close mobile menu when clicking a nav link
-const navLinks = document.querySelectorAll('.nav-link');
-const navbarCollapse = document.querySelector('.navbar-collapse');
-
-navLinks.forEach(link => {
-link.addEventListener('click', () => {
-if (navbarCollapse.classList.contains('show')) {
-const bsCollapse = new bootstrap.Collapse(navbarCollapse);
-bsCollapse.hide();
-}
-});
-o	});
-</script>
-
-
-##### The  navigation section code (below) was derived with the help of Bootstrap 5 Navbar Docs.
-
-    
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand me-5" href="index.html">Nderitu Githaiga</a>
-            <!-- Phone number -->
-            <p class="contact-item" style="margin-right: 20px;">
-                <i class="fas fa-phone contact-icon"></i>
-                <a href="tel:+447851349247 ">+44 7851349247</a>
-            </p>
-            <!-- Email address -->
-            <p>
-                <i class="fas fa-envelope contact-icon "></i>
-                <a href="mailto:nderitug@yahoo.com">nderitug@yahoo.com</a>
-            </p>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-Social media, phone and email icons were taken from https://fontawesome.com/
-
-The contact form is loosely based on Code Insitute's Love Running walkthrough project.
+• The instructional text on the website ("Test your knowledge!", "Score:", etc.) was created by the author.
 
 ### Media:
 
-•	The profile image is of myself taken by me.
+• This project uses a minimal design and does not rely on external images, icons, or graphics. All visual elements were created using custom CSS.
 
-•	All the images used are my own personal images taken at work.
+### Code:
+
+• The vast majority of the code (HTML, CSS, JavaScript) was written by the author.
+
+• The following external resources were referenced for learning, troubleshooting, and inspiration:
+
+    o MDN Web Docs: Invaluable reference for JavaScript concepts (e.g., addEventListener, setInterval, Array methods) and CSS properties.
+
+    o W3Schools: Used for quick reference on JavaScript and CSS syntax.
+
+    o Stack Overflow: Consulted for solutions to specific programming challenges, such as managing timer intervals.
+
+• Any code snippets inspired by or adapted from the above sources are credited in code comments above the relevant sections.
+
 
 ### Honorable mentions
 
