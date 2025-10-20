@@ -376,7 +376,8 @@ Allows the user to move forward to the quiz questions.
 ###### The results:
 The quiz questions begin once the start quiz button is selected.
 
-<img width="1651" height="917" alt="Screenshot 2025-08-23 122045" src="https://github.com/user-attachments/assets/069e5efd-5be8-4a39-a71b-739211606467" />
+<img width="1057" height="831" alt="quiz-screenshot-2" src="https://github.com/user-attachments/assets/da8abb31-2547-4220-8ce2-5576450fe161" />
+
 
 
 ###### The ‘RESTART’ Button:  
@@ -385,7 +386,8 @@ It allows the user to restart the quiz during or after completion of the quiz, g
 ###### The results:
 The quiz questions restart from the beginning once the restart button is selected while answering the questions. If at the end where the total score and feedback message is displayed, you can also restart the quiz questions  
 
-<img width="1252" height="929" alt="Screenshot 2025-08-23 122808" src="https://github.com/user-attachments/assets/735379c3-20d7-4334-8eac-14f6478c1cfc" />
+<img width="1252" height="929" alt="quiz-screenshot-4" src="https://github.com/user-attachments/assets/1f923e5c-88fe-4cf1-9445-9f0b9ea9b164" />
+
 
 
 ###### The ‘HOME’ Button:  
@@ -394,7 +396,8 @@ It allows users to end the quiz during or after completion of the quiz, giving t
 ###### The results:
 The quiz questions end and the user is taken to the home page once the home button is selected. You can also end the quiz while in the middle of doing one.
 
-<img width="1401" height="923" alt="Screenshot 2025-08-23 123145" src="https://github.com/user-attachments/assets/d41798a0-cd1d-409e-a23c-ecace1e7e9bd" />
+<img width="1401" height="923" alt="quiz-screenshot-10" src="https://github.com/user-attachments/assets/faa90fae-3050-4eea-81ed-db06bba62d5f" />
+
 
 
 #### Validators
@@ -402,30 +405,35 @@ The quiz questions end and the user is taken to the home page once the home butt
 
 ###### Index.html
 
-<img width="1869" height="529" alt="index html" src="https://github.com/user-attachments/assets/861636d4-a9d7-4986-b356-f58407781dd2" />
+<img width="1869" height="529" alt="index html" src="https://github.com/user-attachments/assets/90c89ae4-e1ae-44b3-a6d3-71b2f93c8888" />
+
 
 
 ###### Quiz.html
 
-<img width="1890" height="531" alt="quiz html" src="https://github.com/user-attachments/assets/eac04e2f-3079-465a-b675-bc0ef6a357ab" />
+<img width="1890" height="531" alt="quiz html" src="https://github.com/user-attachments/assets/565e974f-1d1f-4a2c-a301-b521a1f6220e" />
+
 
 
 
 
 • CSS Validation using w3c jigsaw
 
-<img width="1851" height="340" alt="css" src="https://github.com/user-attachments/assets/54970e0c-f96a-4ebc-a146-3e5518b8939a" />
+<img width="1851" height="340" alt="css" src="https://github.com/user-attachments/assets/955f169a-5978-4f08-9b95-e9bb51f8267f" />
+
 
 
 • Javascript Validation using JSHint
 
-<img width="1268" height="1200" alt="Screenshot 2025-08-26 at 19 16 00" src="https://github.com/user-attachments/assets/efb95b5d-159a-464e-bffc-13eb5bf4f992" />
+<img width="1268" height="1200" alt="jshint" src="https://github.com/user-attachments/assets/28810c07-0e65-4efd-9558-590dd149198e" />
+
 
 
 
 • Javascript Validation using JSLint
 
-<img width="1876" height="988" alt="jslint 2025-08-16 134518" src="https://github.com/user-attachments/assets/caf9e515-f7bc-4e0a-a9de-e8b690890fcb" />
+<img width="1876" height="988" alt="jslint" src="https://github.com/user-attachments/assets/a2caed83-e277-4a23-8ae0-0389f8bd34e0" />
+
 
 
 
