@@ -126,30 +126,31 @@ Wireframes for desktop, tablet and mobile phone devices were created using Balsa
 
 ##### Desktop
 
-<img width="968" height="772" alt="Desktop Quiz" src="https://github.com/user-attachments/assets/61b72b6e-9733-4c16-b060-8de8931151e2" />
+<img width="968" height="772" alt="desktop-quiz" src="https://github.com/user-attachments/assets/f6587997-04b3-415c-859c-e4e286217c38" />
 
-<img width="954" height="772" alt="Page 2 -Desktop Quiz" src="https://github.com/user-attachments/assets/d4609c24-c6d0-47a6-b8a5-148524e9b009" />
+<img width="954" height="772" alt="page2-desktop-quiz" src="https://github.com/user-attachments/assets/691bab55-194f-49d1-8d8a-1a374cf06a7f" />
 
-<img width="954" height="772" alt="Page 3 -Desktop Quiz " src="https://github.com/user-attachments/assets/e1d72508-4a55-45a1-9f98-fb5422b3baee" />
+<img width="954" height="772" alt="page3-desktop-quiz" src="https://github.com/user-attachments/assets/3cbb56d4-3a18-4357-8a91-aee61201f3be" />
+
 
 
 ##### Tablet
 
-<img width="838" height="836" alt="Tablet Quiz" src="https://github.com/user-attachments/assets/062a41cc-39d8-46f2-a3e2-14a78942baa4" />
+<img width="838" height="836" alt="tablet-quiz" src="https://github.com/user-attachments/assets/fe3c5fc5-e704-4121-82ce-39e95e8c2f7f" />
 
-<img width="838" height="836" alt="Page 2 - Tablet Quiz" src="https://github.com/user-attachments/assets/e7eb5e05-24a6-48dc-9286-935caf6d9b58" />
+<img width="838" height="836" alt="page2-tablet-quiz" src="https://github.com/user-attachments/assets/fec01d01-26d9-4636-aa85-8838bde7417c" />
 
-<img width="838" height="836" alt="Page 3 - Tablet Quiz" src="https://github.com/user-attachments/assets/fa13ae2d-e100-4084-9dc6-cc40be0cdca8" />
+<img width="838" height="836" alt="page3-tablet-quiz" src="https://github.com/user-attachments/assets/c6ce1420-0055-4639-9154-50397b627199" />
+
 
 
 ##### Mobile
 
-<img width="518" height="1140" alt="Mobile phone Quiz" src="https://github.com/user-attachments/assets/7cab3d97-3bef-4fe9-969e-5016a8eb8f80" />
+<img width="518" height="1140" alt="mobilephone-quiz" src="https://github.com/user-attachments/assets/2467f036-6d95-4c5b-83ce-917bb136b260" />
 
-<img width="518" height="1027" alt="Page 2 - Mobile phone Quiz  " src="https://github.com/user-attachments/assets/c45fce61-9d7e-436d-8d49-441d6447de09" />
+<img width="518" height="1027" alt="page2-mobilephone-quiz" src="https://github.com/user-attachments/assets/2b2eed79-21ab-419f-9dda-7a8f7753cb19" />
 
-<img width="518" height="1027" alt="Page 3 - Mobile phone Quiz" src="https://github.com/user-attachments/assets/b8f48b7d-8ac3-4fbb-958b-414ee46bdf55" />
-
+<img width="518" height="1027" alt="page3-mobilephone-quiz" src="https://github.com/user-attachments/assets/f8d79a5d-78d5-4014-999b-3b8f2221c2ee" />
 
 
 
@@ -158,16 +159,19 @@ Wireframes for desktop, tablet and mobile phone devices were created using Balsa
 #### •	Clear Purpose and Simplicity: 
 The goal (take a timed quiz) is immediately obvious. The interface is uncluttered. The design is clean and minimalist.
 
-<img width="1057" height="831" alt="Screenshot 2025-08-23 122010" src="https://github.com/user-attachments/assets/091a7821-a005-4805-b89f-5a546201d6ab" />
+<img width="1057" height="831" alt="quiz-screenshot-2" src="https://github.com/user-attachments/assets/d1da1b67-311c-4fd8-b7ca-41eef08475b3" />
+
 
 
 #### •	Responsive Layout: 
 The quiz is usable on both desktop and mobile devices. Text and buttons scale appropriately.
 
-<img width="837" height="883" alt="Screenshot 2025-08-23 121924" src="https://github.com/user-attachments/assets/b7c06842-380a-4fdb-af7b-c3774c6e81e7" />
+<img width="837" height="883" alt="quiz-screenshot-1" src="https://github.com/user-attachments/assets/37d04f48-1192-4ec4-a112-b0311e5dfd2f" />
 
 
-<img width="1651" height="917" alt="Screenshot 2025-08-23 122045" src="https://github.com/user-attachments/assets/7be52b4d-a564-435d-aa94-187cc6337289" />
+
+<img width="1651" height="917" alt="quiz-screenshot-3" src="https://github.com/user-attachments/assets/3f2eaa1e-a70f-487b-82eb-6af48b39b078" />
+
 
 
 
@@ -176,36 +180,45 @@ o The question counter (Question 1 of 10) tells users where they are in the proc
 
 o	The score updates instantly after each answer, providing clear feedback on performance.
 
-<img width="1039" height="969" alt="Screenshot 2025-08-23 122850" src="https://github.com/user-attachments/assets/765bc9b3-a2cb-46a1-affb-e475ee0d4ab3" />
+<img width="1039" height="969" alt="quiz-screenshot-6" src="https://github.com/user-attachments/assets/91b485ff-cd58-4a5e-a700-006b5414ed57" />
+
+
+
 
 
 #### •	Navigation Control:
 o	The ‘START QUIZ’ Button: Allows the user to move forward to the quiz questions.
 
-<img width="1651" height="917" alt="Screenshot 2025-08-23 122045" src="https://github.com/user-attachments/assets/30361023-6e10-4df1-bf0c-d1acd393b230" />
+<img width="1057" height="831" alt="quiz-screenshot-2" src="https://github.com/user-attachments/assets/8dae939d-5fdf-4920-97fd-651bea97c9dc" />
+
 
 
 o	The ‘RESTART’ Button:  It allows the user to restart the quiz during or after completion of the quiz, giving them a sense of control.
 
-<img width="1234" height="975" alt="Screenshot 2025-08-23 123259" src="https://github.com/user-attachments/assets/37857a62-6346-4e2f-813a-16721fd8aa98" />
+<img width="1234" height="975" alt="quiz-screenshot-11" src="https://github.com/user-attachments/assets/15231cce-dd2f-49c7-b70d-dfa7bc8b7695" />
+
 
 
 o	The ‘HOME’ Button:  It allows users to end the quiz during or after completion of the quiz, giving them a sense of control.
 
-<img width="1401" height="923" alt="Screenshot 2025-08-23 123145" src="https://github.com/user-attachments/assets/b22c4169-d6e0-4ae2-a48d-f39a3b005de6" />
+<img width="1401" height="923" alt="quiz-screenshot-10" src="https://github.com/user-attachments/assets/092ac34c-cf52-40ad-b791-cdf4a1b10dd2" />
+
 
 
 #### •	Immediate Feedback: 
 o After selecting an answer, the user instantly sees whether they were correct or incorrect and their score updates.
 
-<img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/65656995-bd9b-43d8-9c9e-a8077b95957a" />
+<img width="1208" height="996" alt="quiz-screenshot-8" src="https://github.com/user-attachments/assets/02ae2a1a-7ce0-409b-83cb-dfc82c9d207b" />
 
-<img width="1143" height="980" alt="Screenshot 2025-08-23 123048" src="https://github.com/user-attachments/assets/79047e63-c732-4f9b-ae50-9ef1851daf10" />
+
+<img width="1143" height="980" alt="quiz-screenshot-9" src="https://github.com/user-attachments/assets/29318a5e-6ef4-4895-93a0-440a69012586" />
+
 
 
 o After completion of quiz the user receives their result with a message about their performance.
 
-<img width="1401" height="923" alt="Screenshot 2025-08-23 123145" src="https://github.com/user-attachments/assets/8ce159c1-5633-4d09-bfe1-0fd00660deeb" />
+<img width="1401" height="923" alt="quiz-screenshot-10" src="https://github.com/user-attachments/assets/ef6f306e-d4bd-4b2b-ac76-bc88e3dd4c38" />
+
 
 
 #### •	Visual Feedback on Answer Selection: 
