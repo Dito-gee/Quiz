@@ -417,6 +417,13 @@ o Within  seconds, a user can scan the page and answer: "This is a quiz. I can s
 
 o The scope or topic of the quiz is mentioned together with the rules, example " 10 questions , 60 seconds per question, score tracking". 
 
+<img width="1912" height="1149" alt="Screenshot 2025-08-26 160345" src="https://github.com/user-attachments/assets/fa382bd7-35c3-482d-aa0f-3398b4f8814d" />
+
+<img width="1143" height="980" alt="Screenshot 2025-08-23 123048" src="https://github.com/user-attachments/assets/240d2caa-955b-4163-8706-a717c7ed2731" />
+
+
+
+
 
 
 #### As a user, I want to easily be able to navigate throughout the site to find content.
@@ -430,6 +437,15 @@ o The "Question X of 10" text is present and functional. It tells users where th
 o The score is displayed prominently and updates in real-time. It is very easy for the user to find this key piece of content.
 
 o After the final question the quiz ends. The user has the option to finish by selecting the "home" button or start afresh the questions by selecting the "restart" button
+
+<img width="1401" height="923" alt="Screenshot 2025-08-23 123145" src="https://github.com/user-attachments/assets/f844c9c1-93f4-4ed3-8bde-cf5d0950503f" />
+
+<img width="1912" height="1149" alt="Screenshot 2025-08-26 160345" src="https://github.com/user-attachments/assets/db7454dc-7aa6-4f75-8610-07e102a7ac74" />
+
+<img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/bcf4524b-6699-43cf-9fbf-9da0c36c878f" />
+
+
+
 
 
 ### Further Testing
