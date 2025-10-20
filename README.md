@@ -457,9 +457,11 @@ o Within  seconds, a user can scan the page and answer: "This is a quiz. I can s
 
 o The scope or topic of the quiz is mentioned together with the rules, example " 10 questions , 60 seconds per question, score tracking". 
 
-<img width="1912" height="1149" alt="Screenshot 2025-08-26 160345" src="https://github.com/user-attachments/assets/fa382bd7-35c3-482d-aa0f-3398b4f8814d" />
+<img width="1909" height="1097" alt="quiz-screenshot-13" src="https://github.com/user-attachments/assets/7f3bf2b6-91db-4a62-89c7-29e92614b083" />
 
-<img width="1143" height="980" alt="Screenshot 2025-08-23 123048" src="https://github.com/user-attachments/assets/240d2caa-955b-4163-8706-a717c7ed2731" />
+
+<img width="1143" height="980" alt="quiz-screenshot-9" src="https://github.com/user-attachments/assets/ffc93935-954f-48c9-94df-930a582e8827" />
+
 
 
 
@@ -478,11 +480,14 @@ o The score is displayed prominently and updates in real-time. It is very easy f
 
 o After the final question the quiz ends. The user has the option to finish by selecting the "home" button or start afresh the questions by selecting the "restart" button
 
-<img width="1401" height="923" alt="Screenshot 2025-08-23 123145" src="https://github.com/user-attachments/assets/f844c9c1-93f4-4ed3-8bde-cf5d0950503f" />
+<img width="1401" height="923" alt="quiz-screenshot-10" src="https://github.com/user-attachments/assets/3080a9b9-dd67-42f6-8698-f33d1faf9267" />
 
-<img width="1912" height="1149" alt="Screenshot 2025-08-26 160345" src="https://github.com/user-attachments/assets/db7454dc-7aa6-4f75-8610-07e102a7ac74" />
 
-<img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/bcf4524b-6699-43cf-9fbf-9da0c36c878f" />
+<img width="1912" height="1149" alt="quiz-screenshot-14" src="https://github.com/user-attachments/assets/d8f1ad75-b9f4-4aac-bd1d-77d3c5246d20" />
+
+
+<img width="1208" height="996" alt="quiz-screenshot-8" src="https://github.com/user-attachments/assets/90ac4491-c3f0-48ee-a945-36d48b7ef723" />
+
 
 
 
@@ -492,9 +497,11 @@ o After the final question the quiz ends. The user has the option to finish by s
 
 The Website was tested on Google Chrome and Microsoft Edge browsers.
 
-<img width="1909" height="1097" alt="Screenshot 2025-08-26 160105" src="https://github.com/user-attachments/assets/3271519b-ab27-4e46-b540-177060685dd1" />
+<img width="1909" height="1097" alt="quiz-screenshot-13" src="https://github.com/user-attachments/assets/33bdcef6-e5e6-423e-b35a-cbbc6c574ec7" />
 
-<img width="1912" height="1149" alt="Screenshot 2025-08-26 160345" src="https://github.com/user-attachments/assets/dd1bf25e-a516-4a11-8e71-40785fe0207c" />
+
+<img width="1912" height="1149" alt="quiz-screenshot-14" src="https://github.com/user-attachments/assets/30325d6d-592b-43bf-8c3e-2d4d1443aa8c" />
+
 
 
 
@@ -508,7 +515,8 @@ Friends were asked to review the site to point out any user experience issues.
 
 o When one of the multiple choice radio button answers is selected the colour constrast is not good. Due to time constraints I was not able to fix the bug. 
 
-<img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/c0139753-ea18-4a57-b322-e2835630e5e3" />
+<img width="1208" height="996" alt="quiz-screenshot-8" src="https://github.com/user-attachments/assets/f3f6ce95-25ba-49e7-ad6c-fcaeebc6b4af" />
+
 
 
 o There is also a problem with keyboard navigation. I cannot navigate with the Tab/Enter keys. Due to time constraints I was not able to fix the bug. 
