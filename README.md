@@ -208,32 +208,38 @@ o	The ‘HOME’ Button:  It allows users to end the quiz during or after comple
 #### •	Immediate Feedback: 
 o After selecting an answer, the user instantly sees whether they were correct or incorrect and their score updates.
 
-<img width="1208" height="996" alt="quiz-screenshot-8" src="https://github.com/user-attachments/assets/02ae2a1a-7ce0-409b-83cb-dfc82c9d207b" />
+<img width="1208" height="996" alt="quiz-screenshot-8" src="https://github.com/user-attachments/assets/fd04c2f7-6512-4a1f-86cc-a71b75e4029f" />
 
 
-<img width="1143" height="980" alt="quiz-screenshot-9" src="https://github.com/user-attachments/assets/29318a5e-6ef4-4895-93a0-440a69012586" />
+
+<img width="1143" height="980" alt="quiz-screenshot-9" src="https://github.com/user-attachments/assets/31e7026e-cf3c-4fce-8317-e6850234ae45" />
+
 
 
 
 o After completion of quiz the user receives their result with a message about their performance.
 
-<img width="1401" height="923" alt="quiz-screenshot-10" src="https://github.com/user-attachments/assets/ef6f306e-d4bd-4b2b-ac76-bc88e3dd4c38" />
+<img width="1401" height="923" alt="quiz-screenshot-10" src="https://github.com/user-attachments/assets/673219f9-8f69-4b59-8718-2d22b19f8087" />
+
 
 
 
 #### •	Visual Feedback on Answer Selection: 
 When an answer is selected, there is an immediate change to the 	background colour of the selected button from either green or red. Green 	if it is correct. Red if it is wrong and the correct answer is  highlighted in 	green. The correct answer is also highlighted in green if no answer is given 	and the question has timed out.
 
-<img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/35c49fe4-b2ad-4caa-b34b-f2a14ac18b24" />
+<img width="1208" height="996" alt="quiz-screenshot-8" src="https://github.com/user-attachments/assets/dbc36700-13f0-40ae-a886-890ec5b4c16c" />
 
-<img width="1143" height="980" alt="Screenshot 2025-08-23 123048" src="https://github.com/user-attachments/assets/45eaaffc-4e90-4360-a2fb-c72dcb6d44e8" />
+
+<img width="1143" height="980" alt="quiz-screenshot-9" src="https://github.com/user-attachments/assets/7c2b727d-f6c6-41d3-997f-df49140eec11" />
+
 
 
 
 #### •	Time Constraint (The Timer): 
 This adds a classic gamification element that creates challenge and excitement. 60 seconds per question. Once the timer ends the question automatically moves to the next, while giving a wrong answer result. The timer then restarts and repeats the same process if no answer is selected. 
 
-<img width="1039" height="969" alt="Screenshot 2025-08-23 122850" src="https://github.com/user-attachments/assets/283afe86-0b9a-4ce4-b911-e61856f046ed" />
+<img width="1039" height="969" alt="quiz-screenshot-6" src="https://github.com/user-attachments/assets/24f04244-8100-4669-87c5-7e3e2b309a0c" />
+
 
 
 
@@ -260,9 +266,11 @@ o Automated Testing - Automated testing uses scripts and tools  to execute prede
 
 •	Responsiveness was tested extensively using Chrome Dev Tools. This proved invaluable when creating each page and was instrumental in helping me ensure responsiveness on multiple devices and screen sizes.
 
-<img width="1057" height="831" alt="Screenshot 2025-08-23 122010" src="https://github.com/user-attachments/assets/f5ea12cb-0106-4eb8-920e-c458e94b2187" />
+<img width="1057" height="831" alt="quiz-screenshot-2" src="https://github.com/user-attachments/assets/059a197f-d331-42a6-a586-1c1e48a337ec" />
 
-<img width="837" height="883" alt="Screenshot 2025-08-23 121924" src="https://github.com/user-attachments/assets/20386338-cbd3-4426-ba14-08c36f74b0e9" />
+
+<img width="837" height="883" alt="quiz-screenshot-1" src="https://github.com/user-attachments/assets/98138a69-abb7-4cad-8a69-5f2d96d74dec" />
+
 
 
 
@@ -272,13 +280,15 @@ o Automated Testing - Automated testing uses scripts and tools  to execute prede
 
 ###### Desktop
 
-<img width="1149" height="979" alt="Lighthouse Report Viewer" src="https://github.com/user-attachments/assets/3114d09d-da5e-4c0e-928a-d4a147ed5bed" />
+<img width="1149" height="979" alt="lighthouse-report-viewer" src="https://github.com/user-attachments/assets/38f88659-eb4a-4050-bf72-c806a6e673ca" />
+
 
 
 
 ###### Mobile
 
-<img width="1091" height="1018" alt="Lighthouse Report Viewer 2" src="https://github.com/user-attachments/assets/060817fb-f07b-405a-988c-40edf86c860f" />
+<img width="1091" height="1018" alt="lighthouse-report-viewer-2" src="https://github.com/user-attachments/assets/e130f509-eb0d-48bf-8f4d-1d509d90cdcd" />
+
 
 
 
@@ -298,13 +308,15 @@ Each feature was user-tested numerous times.	All functionality works.
 
 Load the page and click the start button  
 
-<img width="1057" height="831" alt="Screenshot 2025-08-23 122010" src="https://github.com/user-attachments/assets/850d0907-f2d0-4b5f-a817-3bce35ce7c72" />
+<img width="1057" height="831" alt="quiz-screenshot-2" src="https://github.com/user-attachments/assets/0b8e4a2e-c03a-4140-9c7f-a46310c46c8b" />
+
 
 
 ###### The results:
 The first quiz question is displayed and the timer starts 
 
-<img width="1234" height="975" alt="Screenshot 2025-08-23 123259" src="https://github.com/user-attachments/assets/b72b0d73-c920-4301-8467-7b928cc12232" />
+<img width="1234" height="975" alt="quiz-screenshot-11" src="https://github.com/user-attachments/assets/79fa98c3-cf22-48b5-8dfe-396f6c2f639f" />
+
 
 
 ##### 2. Answer buttons
@@ -314,12 +326,14 @@ Select an answer option by clicking one of the multiple choice answer buttons
 ###### The results: 
 o If correct the background colour of the selected button changes to green. 
 
-<img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/2742782c-ddb8-4668-8132-55550091660d" />
+<img width="1208" height="996" alt="quiz-screenshot-8" src="https://github.com/user-attachments/assets/9dfd4710-c37a-4318-8999-edb5fa18d1cf" />
+
 
 
 o If wrong the background colour of the selected button changes to red and the correct answer is  highlighted in 	green. 
 
-<img width="1143" height="980" alt="Screenshot 2025-08-23 123048" src="https://github.com/user-attachments/assets/497a659b-570e-417c-8f99-ba900593f4c6" />
+<img width="1143" height="980" alt="quiz-screenshot-9" src="https://github.com/user-attachments/assets/d2e767e1-d2ac-4747-ae04-49e0bbb454cb" />
+
 
 
 o The correct answer is also highlighted in green if no answer is given and the question has timed out. 
@@ -328,6 +342,8 @@ o The correct answer is also highlighted in green if no answer is given and the 
 ##### 3. Timer:
 Each question has a 60 second timer that counts down once a question begins.
 
+
+
 ###### The results:
 o Timer counts down from 60 seconds. 
 
@@ -335,19 +351,22 @@ o It also times out and moves to the next question if no answer is selected.
 
 o The timer restarts when on the next question
 
-<img width="1039" height="969" alt="Screenshot 2025-08-23 122850" src="https://github.com/user-attachments/assets/089d711b-2784-4bda-acfc-e86581aa008b" />
+<img width="1167" height="1023" alt="quiz-screenshot-5" src="https://github.com/user-attachments/assets/9f014b55-718a-4f28-9903-159e93b3b0f9" />
+
 
 
 ##### 4. Score display:
 The score display updates instantly after each answer, providing clear feedback on performance. Maximum score is 10 out of 10. At the end of the questions the total score is displayed together with a message  providing feedback.
 
-<img width="1401" height="923" alt="Screenshot 2025-08-23 123145" src="https://github.com/user-attachments/assets/5f6d8aad-6721-4330-8a7b-b88d548fbd86" />
+<img width="1401" height="923" alt="quiz-screenshot-10" src="https://github.com/user-attachments/assets/d1cf2c11-c1b4-4bb7-9329-51990edc8f1a" />
+
 
 
 ##### 5. Question counter:
 The question counter (Question 1 of 10) updates enabling users to know where they are in the process and how much is left.
 
-<img width="1208" height="996" alt="Screenshot 2025-08-23 123017" src="https://github.com/user-attachments/assets/30bc71bf-4ab3-45ca-a0d2-52eab9103ea5" />
+<img width="1208" height="996" alt="quiz-screenshot-8" src="https://github.com/user-attachments/assets/57abdf00-49a4-446c-9bb0-0ca8df47ba68" />
+
 
 
 ##### 6. Navigation control buttons:
